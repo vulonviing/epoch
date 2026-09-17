@@ -1,0 +1,45 @@
+{
+  "_source_path": "****",
+  "agent_id": "TS1",
+  "approved_at": "****",
+  "artifact_id": "artifact-011",
+  "created_at": "****",
+  "input_refs": {
+    "cp1": {
+      "artifact_id": "artifact-003",
+      "payload_sha256": "12d5953c66aac3392887ea57320709e3d38fccaecf46d604f392d212e99153ce",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "alternatives": [
+      {
+        "topology_id": "****",
+        "why_not": "****"
+      }
+    ],
+    "bindings": [],
+    "limitations": [
+      "****"
+    ],
+    "rationale": "****",
+    "selected_topology_id": "****",
+    "signal_sources": {
+      "selected_topology_id": [
+        "****"
+      ]
+    },
+    "topology_scores": {
+      "Coalition": "****",
+      "Debate": "****",
+      "Direct": "****"
+    }
+  },
+  "payload_sha256": "84a2cbb73c2008cc4be36a90f630478fe10443f3fc9577813e923ffd30fec60e",
+  "reason": "TS1 topology selection accepted",
+  "registry_id": "uc3_csrd_scope2_measure",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

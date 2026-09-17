@@ -1,0 +1,47 @@
+{
+  "_gold": {
+    "agent_id": "P1",
+    "agent_type": "llm",
+    "checkpoint": "P1",
+    "comparison_policy": "P1 is a Direct-chain intermediate step promoted automatically without its own gate; its per-site interpretation and caveats are semantic, its carried-forward D3 fields are data-derived.",
+    "human_gate": null,
+    "pipeline_order": 8,
+    "registry_id": "uc1_enefg_threshold_check",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-007",
+    "source_payload_sha256": "a69caab73f7d89a4da57233a34b7448b9738703b7b355207390e986303d5ce66",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": true
+  },
+  "payload": {
+    "carried_caveats": [
+      "****"
+    ],
+    "registry_id": "****",
+    "rows": [
+      {
+        "address": "****",
+        "carried_caveats": [
+          "****"
+        ],
+        "cdp_region": "****",
+        "city": "****",
+        "country": "****",
+        "country_code": "****",
+        "country_name": "****",
+        "gap": "****",
+        "interpretation": "****",
+        "latitude": "****",
+        "location_id": "****",
+        "location_name": "****",
+        "longitude": "****",
+        "near_breach": "****",
+        "rule_id": "****",
+        "rule_label": "****",
+        "status": "****",
+        "zip_code": "****"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_gold": {
+    "agent_id": "R1",
+    "agent_type": "llm",
+    "checkpoint": "R1",
+    "comparison_policy": "R1 is diagnostic evidence for DA1's mapping, not a human-approved boundary; findings and possible_fields are judged for regulatory grounding and coverage, not literal reproduction.",
+    "human_gate": null,
+    "pipeline_order": 1,
+    "registry_id": "uc2_1_ets1_scope_memo_annual",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-009",
+    "source_payload_sha256": "3e4499e184108cf1de2e5f62028d469a46c44236b55979ab797b56ce874ed1b9",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": false
+  },
+  "payload": {
+    "cache_signature": {
+      "loader_version": "****",
+      "model": "****",
+      "prompt_sha256": "****",
+      "r1_registry_input_sha256": "****",
+      "schema_version": "****",
+      "source_hashes": {
+        "CELEX_32003L0087_EN_TXT.pdf": "****"
+      }
+    },
+    "findings": [
+      {
+        "evidence_excerpt": "****",
+        "finding_id": "****",
+        "page": "****",
+        "requirement_type": "****",
+        "source_file": "****",
+        "source_ref": "****",
+        "statement": "****"
+      }
+    ],
+    "missing_regulatory_context": [
+      "****"
+    ],
+    "possible_fields": [
+      {
+        "description": "****",
+        "expected_grain": "****",
+        "expected_unit": null,
+        "field_id": "****",
+        "finding_refs": [
+          "****"
+        ],
+        "name": "****",
+        "priority": "****",
+        "reason": "****",
+        "role": "****"
+      }
+    ],
+    "selected_pages": [
+      {
+        "page": "****",
+        "reason": "****",
+        "source_file": "****",
+        "source_ref": "****"
+      }
+    ],
+    "source_hashes": {
+      "CELEX_32003L0087_EN_TXT.pdf": "****"
+    },
+    "stop_reason": null,
+    "summary": "****",
+    "verdict": "****"
+  }
+}

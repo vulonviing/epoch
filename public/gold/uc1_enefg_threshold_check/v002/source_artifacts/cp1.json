@@ -1,0 +1,89 @@
+{
+  "_source_path": "****",
+  "agent_id": "CP1",
+  "approved_at": "****",
+  "artifact_id": "artifact-001",
+  "created_at": "****",
+  "input_refs": {
+    "d1": {
+      "artifact_id": "artifact-011",
+      "payload_sha256": "708a622983d5edefe4a76f4fabd015973c789a4d21358ca3b55922fe82d60d13",
+      "run_id": "run-01"
+    },
+    "d2": {
+      "artifact_id": "artifact-002",
+      "payload_sha256": "6734c23b2d84b6a69b186c3ba67e0e38516aec68cde77343a2272c63983afe71",
+      "run_id": "run-01"
+    },
+    "da1": {
+      "artifact_id": "artifact-003",
+      "payload_sha256": "d87ebce97e199bd2f7459e40e84173be5e0c2dda68bc1c6eeffa3fedbff93369",
+      "run_id": "run-01"
+    },
+    "r1": {
+      "artifact_id": "artifact-008",
+      "payload_sha256": "515d66ffc749239d7440660f34462044c36976761f42bcd6b939bbaaddad47ea",
+      "run_id": "run-01"
+    },
+    "r2": {
+      "artifact_id": "artifact-009",
+      "payload_sha256": "ca567bf7f384ece4a72abd9db13f249479b18925edb0f2f2418e7ab361ee548c",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "assurance_artifact": "****",
+    "assurance_level": "****",
+    "cluster_count": "****",
+    "cross_functional_need": "****",
+    "deadline_proximity_days": null,
+    "dual_method_required": "****",
+    "limitations": [
+      "****"
+    ],
+    "output_profile": {
+      "description": "****",
+      "form": "****",
+      "output_type": "****"
+    },
+    "risk_level": "****",
+    "signal_sources": {
+      "assurance_artifact": [
+        "****"
+      ],
+      "assurance_level": [
+        "****"
+      ],
+      "cluster_count": [
+        "****"
+      ],
+      "cross_functional_need": [
+        "****"
+      ],
+      "dual_method_required": [
+        "****"
+      ],
+      "output_profile": [
+        "****"
+      ],
+      "risk_level": [
+        "****"
+      ],
+      "task_type": [
+        "****"
+      ],
+      "uncertainty": [
+        "****"
+      ]
+    },
+    "task_type": "****",
+    "uncertainty": "****"
+  },
+  "payload_sha256": "12d5953c66aac3392887ea57320709e3d38fccaecf46d604f392d212e99153ce",
+  "reason": "CP1 profile accepted",
+  "registry_id": "uc1_enefg_threshold_check",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

@@ -1,0 +1,47 @@
+{
+  "_source_path": "****",
+  "agent_id": "EX2",
+  "approved_at": "****",
+  "artifact_id": "artifact-005",
+  "created_at": "****",
+  "input_refs": {
+    "gate_payload": {
+      "artifact_id": null,
+      "payload_sha256": "****",
+      "state": "candidate"
+    }
+  },
+  "payload": {
+    "bullets": [
+      {
+        "grounding": "****",
+        "point": "****",
+        "relevance": "****",
+        "sources": [
+          {
+            "institution": "****",
+            "published": "****",
+            "title": "****",
+            "url": "****"
+          }
+        ],
+        "stance": "****"
+      }
+    ],
+    "institutions_consulted": [
+      "****"
+    ],
+    "registry_id": "****",
+    "search_notes": [
+      "****"
+    ],
+    "stage_id": "****"
+  },
+  "payload_sha256": "1b728ec051aa0b0a996a64ee8f5a64b91c64ff4b808144464c499bb4395fe766",
+  "reason": "EX2 external commentary accepted",
+  "registry_id": "uc1_enefg_threshold_check",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

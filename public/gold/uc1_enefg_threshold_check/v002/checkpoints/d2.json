@@ -1,0 +1,28 @@
+{
+  "_gold": {
+    "agent_id": "D2",
+    "agent_type": "hybrid",
+    "checkpoint": "D2",
+    "comparison_policy": "D2 is Hybrid: the deterministic engine's counts are data-derived, the LLM's routing verdict and summary are semantic. D2 is diagnostic evidence for CP1, not a human-approved boundary.",
+    "human_gate": null,
+    "pipeline_order": 5,
+    "registry_id": "uc1_enefg_threshold_check",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-002",
+    "source_payload_sha256": "6734c23b2d84b6a69b186c3ba67e0e38516aec68cde77343a2272c63983afe71",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": false
+  },
+  "payload": {
+    "assessable_claims": [
+      "****"
+    ],
+    "blocked_claims": [],
+    "evidence_completeness": "****",
+    "max_severity": "****",
+    "routing_recommendation": "****",
+    "summary": "****",
+    "verdict": "****"
+  }
+}

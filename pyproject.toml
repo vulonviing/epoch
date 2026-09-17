@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epoch-switch"
+version = "0.1.0"
+description = "EPOCH thesis regulation CLI"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.30",
+    "anthropic>=0.40",
+    "azure-identity>=1.15",
+    "python-dotenv>=1.0",
+    "pydantic>=2.0",
+    "pandas>=2.0",
+    "pypdf>=6.0",
+    "rich>=13.0",
+    "typer>=0.12",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0", "build>=1.2"]
+
+[project.scripts]
+epoch-regulation = "epoch_switch.regulation_cli:app"
+
+[tool.pytest.ini_options]
+markers = [
+    "external_corpus: requires locally supplied third-party UC4 documents",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["epoch_switch*"]
+
+[tool.setuptools.package-data]
+"epoch_switch" = ["**/*.md"]

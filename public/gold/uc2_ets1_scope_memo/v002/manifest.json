@@ -1,0 +1,69 @@
+{
+  "available_agents": [
+    "CP1",
+    "D1",
+    "D2",
+    "D3",
+    "DA1",
+    "EX1",
+    "EX2",
+    "F1",
+    "P2",
+    "P3",
+    "R1",
+    "R2",
+    "S1",
+    "TS1"
+  ],
+  "checkpoint_file_sha256": {
+    "cp1.json": "922becbfc8afab7035cd7bef1be9be7a9fbf85e8d2ca341170a47e6a50f3bcfd",
+    "d2.json": "8fe5f92a72d470d87683285c9167472b0fb601f991b773e59d4761e460e2435e",
+    "da1.json": "4befd9299f24c81a8cffbe099d5bc0dc166ccb7f89c877fb6c4db473731c57b4",
+    "ex1.json": "e3e27f2e555c26c570cbce6695fb74a1e7b1401e3cb382879a7b0c2488a3c231",
+    "ex2.json": "fe87ab059321c853e350b12ca43cd4470bc95422779418508621e256207fac59",
+    "f1.json": "c5a5c5b13114f24c3898b9bc26380a1d2762a1bb0fe5a1519ba5852a607937be",
+    "p2.json": "a2391b3270626a37440dbe7143b9a2518228f2991e2bf73ea3cc84d2cf06f90f",
+    "p3.json": "f98c8a80aeb1723887a3f4927d2080d3b34f2e56076b215bdc4543f01b07d6d6",
+    "r1.json": "2096e8b54886f1a94352d85b21ab8ddc2df8ac2efa78b1fa867f50498b4f7f2c",
+    "r2.json": "8eb7fcb03644fc21b5453667266cd69133632c0d4b3270a5f1d66569161c884e",
+    "s1.json": "73e43107b768367cac028449a4bbd19f79784c886aaa44ac13e2b401b47f3a17",
+    "ts1.json": "bb59878c0e5e0b6deb1c12fe4e8b43cebffaef385a8871cc0aec8eb935b45acc"
+  },
+  "created_at": "****",
+  "current_registry_sha256": "3be9588e126a4b42add58f7aa935aa9d4a72dddd08a34d8722ed6a53b5308ad7",
+  "expected_topology": "Debate",
+  "frozen_at": "****",
+  "git": {
+    "branch": "main",
+    "commit": "****",
+    "dirty": true
+  },
+  "lineage_consistent": true,
+  "missing_checkpoints": [],
+  "missing_supporting_agents": [],
+  "public_export": {
+    "collection_cardinality_redacted": true,
+    "data_derived_numbers_masked": true,
+    "geography_redacted": true,
+    "llm_prose_redacted": true,
+    "mask_value": "****",
+    "masked": true,
+    "metadata_identifiers_tokenized": true,
+    "payload_values_redacted": true,
+    "private_fingerprints_redacted": true,
+    "purpose": "disclosure_only",
+    "source_version": "v002"
+  },
+  "registry_drift": false,
+  "registry_id": "uc2_ets1_scope_memo",
+  "reviewer": "****",
+  "schema_version": 1,
+  "source_kind": "experiment",
+  "source_location": "****",
+  "source_registry_sha256": "3be9588e126a4b42add58f7aa935aa9d4a72dddd08a34d8722ed6a53b5308ad7",
+  "source_run_ids": [
+    "run-01"
+  ],
+  "status": "frozen",
+  "version": "v002"
+}

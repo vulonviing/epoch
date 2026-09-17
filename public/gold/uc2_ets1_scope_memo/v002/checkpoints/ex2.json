@@ -1,0 +1,43 @@
+{
+  "_gold": {
+    "agent_id": "EX2",
+    "agent_type": "llm",
+    "checkpoint": "EX2",
+    "comparison_policy": "EX2 is advisory, external-only commentary run immediately before the F1 human gate; it is outside the topology and never consumed by any downstream agent. bullets[] has no join_key and is matched as an unordered set: a model is judged on whether it surfaced comparable concerns from allowlisted institutions, not on reproducing the gold's bullet text or bullet count.",
+    "human_gate": null,
+    "pipeline_order": 11,
+    "registry_id": "uc2_ets1_scope_memo",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-005",
+    "source_payload_sha256": "1b728ec051aa0b0a996a64ee8f5a64b91c64ff4b808144464c499bb4395fe766",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": false
+  },
+  "payload": {
+    "bullets": [
+      {
+        "grounding": "****",
+        "point": "****",
+        "relevance": "****",
+        "sources": [
+          {
+            "institution": "****",
+            "published": "****",
+            "title": "****",
+            "url": "****"
+          }
+        ],
+        "stance": "****"
+      }
+    ],
+    "institutions_consulted": [
+      "****"
+    ],
+    "registry_id": "****",
+    "search_notes": [
+      "****"
+    ],
+    "stage_id": "****"
+  }
+}

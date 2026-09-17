@@ -1,0 +1,65 @@
+{
+  "_gold": {
+    "agent_id": "CP1",
+    "agent_type": "llm",
+    "checkpoint": "CP1",
+    "comparison_policy": "Categorical routing fields are exact labels; explanatory prose is semantic.",
+    "human_gate": "G3",
+    "pipeline_order": 6,
+    "registry_id": "uc1_enefg_threshold_check",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-001",
+    "source_payload_sha256": "12d5953c66aac3392887ea57320709e3d38fccaecf46d604f392d212e99153ce",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": false
+  },
+  "payload": {
+    "assurance_artifact": "****",
+    "assurance_level": "****",
+    "cluster_count": "****",
+    "cross_functional_need": "****",
+    "deadline_proximity_days": null,
+    "dual_method_required": "****",
+    "limitations": [
+      "****"
+    ],
+    "output_profile": {
+      "description": "****",
+      "form": "****",
+      "output_type": "****"
+    },
+    "risk_level": "****",
+    "signal_sources": {
+      "assurance_artifact": [
+        "****"
+      ],
+      "assurance_level": [
+        "****"
+      ],
+      "cluster_count": [
+        "****"
+      ],
+      "cross_functional_need": [
+        "****"
+      ],
+      "dual_method_required": [
+        "****"
+      ],
+      "output_profile": [
+        "****"
+      ],
+      "risk_level": [
+        "****"
+      ],
+      "task_type": [
+        "****"
+      ],
+      "uncertainty": [
+        "****"
+      ]
+    },
+    "task_type": "****",
+    "uncertainty": "****"
+  }
+}

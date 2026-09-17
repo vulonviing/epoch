@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "publication_scope": "disclosure_safe_thesis_evaluation",
+  "peer_review_policy": "rubric_and_anonymized_aggregates_only",
+  "raw_runs_published": false,
+  "use_cases": [
+    {
+      "registry_id": "uc1_enefg_threshold_check",
+      "pipeline_family": "tabular",
+      "expected_topology": "Direct",
+      "gold_status": "structure_only_masked_v002",
+      "gold_path": "public/gold/uc1_enefg_threshold_check/v002",
+      "peer_review_count": 1,
+      "peer_review_status": "aggregate_only"
+    },
+    {
+      "registry_id": "uc2_ets1_scope_memo",
+      "pipeline_family": "tabular",
+      "expected_topology": "Debate",
+      "gold_status": "structure_only_masked_v002",
+      "gold_path": "public/gold/uc2_ets1_scope_memo/v002",
+      "peer_review_count": 1,
+      "peer_review_status": "aggregate_only"
+    },
+    {
+      "registry_id": "uc2_1_ets1_scope_memo_annual",
+      "pipeline_family": "tabular",
+      "expected_topology": "Debate",
+      "gold_status": "structure_only_masked_v002",
+      "gold_path": "public/gold/uc2_1_ets1_scope_memo_annual/v002",
+      "peer_review_count": 1,
+      "peer_review_status": "aggregate_only"
+    },
+    {
+      "registry_id": "uc3_csrd_scope2_measure",
+      "pipeline_family": "tabular",
+      "expected_topology": "Coalition",
+      "gold_status": "structure_only_masked_v002",
+      "gold_path": "public/gold/uc3_csrd_scope2_measure/v002",
+      "peer_review_count": 1,
+      "peer_review_status": "aggregate_only"
+    },
+    {
+      "registry_id": "uc4_esrs_2026_impact",
+      "pipeline_family": "document",
+      "expected_topology": "Debate",
+      "gold_status": "withheld_third_party_source_excerpts",
+      "gold_path": "public/gold/uc4_esrs_2026_impact/README.md",
+      "peer_review_count": 2,
+      "peer_review_status": "aggregate_only"
+    }
+  ]
+}

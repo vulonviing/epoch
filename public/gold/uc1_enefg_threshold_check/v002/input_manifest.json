@@ -1,0 +1,25 @@
+{
+  "created_at": "****",
+  "note": "Confidential source-file names, counts, hashes, and sizes are redacted.",
+  "real_data_files": [
+    {
+      "path": "****",
+      "sha256": "****",
+      "size_bytes": "****"
+    }
+  ],
+  "regulation_files": [
+    {
+      "filename": "EnEfG.pdf",
+      "matches": [
+        {
+          "path": "regulations/EnEfG.pdf",
+          "sha256": "c112d86dc72a65a2ff648040191dc97576bd7300806995fba0d778fe5d980bb2",
+          "size_bytes": "****"
+        }
+      ],
+      "reference": "REG-2"
+    }
+  ],
+  "source_kind": "experiment"
+}

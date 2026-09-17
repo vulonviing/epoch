@@ -1,0 +1,54 @@
+[
+  {
+    "checkpoint_count": 10,
+    "expected_topology": "Direct",
+    "frozen_at": "****",
+    "package_path": "uc1_enefg_threshold_check/v002",
+    "registry_id": "uc1_enefg_threshold_check",
+    "reviewer": "****",
+    "sha256sums_sha256": "91cd3ea291d26040524c8eb45058af24ddb2ceff9b8184cb7456b43b0fa6291a",
+    "source_run_ids": [
+      "run-01"
+    ],
+    "version": "v002"
+  },
+  {
+    "checkpoint_count": 12,
+    "expected_topology": "Debate",
+    "frozen_at": "****",
+    "package_path": "uc2_ets1_scope_memo/v002",
+    "registry_id": "uc2_ets1_scope_memo",
+    "reviewer": "****",
+    "sha256sums_sha256": "ebfa07cd9901f85b461147dc504dc0a522fe42529e8da90fe8a96e4810150b39",
+    "source_run_ids": [
+      "run-01"
+    ],
+    "version": "v002"
+  },
+  {
+    "checkpoint_count": 12,
+    "expected_topology": "Debate",
+    "frozen_at": "****",
+    "package_path": "uc2_1_ets1_scope_memo_annual/v002",
+    "registry_id": "uc2_1_ets1_scope_memo_annual",
+    "reviewer": "****",
+    "sha256sums_sha256": "f7a0ad4fb724b2b61e1c916fc91e9fdea4cdd4b5b72b4cd8a7f40a632f5624f4",
+    "source_run_ids": [
+      "run-01"
+    ],
+    "version": "v002"
+  },
+  {
+    "checkpoint_count": 11,
+    "expected_topology": "Coalition",
+    "frozen_at": "****",
+    "package_path": "uc3_csrd_scope2_measure/v002",
+    "registry_id": "uc3_csrd_scope2_measure",
+    "reviewer": "****",
+    "sha256sums_sha256": "15e5d8c77fee6fecf21e17cb053bba0126a6616ec233541e9704ae291b358729",
+    "source_run_ids": [
+      "run-01"
+    ],
+    "version": "v002"
+  }
+]

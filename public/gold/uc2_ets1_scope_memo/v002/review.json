@@ -1,0 +1,70 @@
+{
+  "checkpoints": {
+    "CP1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "D2": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "DA1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "EX1": {
+      "decision": "approved",
+      "notes": "All 10 bullets web_verified against EUR-Lex/DEHSt, including a CJEU ruling on Annex I thermal-input aggregation; correctly reinforces the Scope-1-vs-Scope-2 and materiality-threshold limitations already carried in the gate.",
+      "source_available": true
+    },
+    "EX2": {
+      "decision": "approved",
+      "notes": "All 11 bullets web_verified against EUR-Lex/EEA/ESMA/DEHSt; correctly challenges the memo for reconciling Scope 2 purchased-electricity when the directive governs Scope **** emissions, the strongest substantive finding in either EX pass for this package.",
+      "source_available": true
+    },
+    "F1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "P2": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "P3": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "R1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "R2": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "S1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "TS1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    }
+  },
+  "frozen_at": "****",
+  "lineage_reviewed": true,
+  "overall_decision": "approved",
+  "registry_drift_resolved": true,
+  "reviewer": "****",
+  "schema_version": 1
+}

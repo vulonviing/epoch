@@ -1,0 +1,71 @@
+{
+  "_source_path": "****",
+  "agent_id": "F1",
+  "approved_at": "****",
+  "artifact_id": "artifact-008",
+  "created_at": "****",
+  "input_refs": {
+    "c1": {
+      "artifact_id": "artifact-001",
+      "payload_sha256": "7026f9cfb832062e508c7e5e6552f6a4589de400c93d9d3ef9da7dae3a1a2077",
+      "run_id": "run-01"
+    },
+    "c2": {
+      "artifact_id": "artifact-002",
+      "payload_sha256": "00b2951d9562a859e8585fee91718dda8cd539aa3854fad6a338509a09720a5a",
+      "run_id": "run-01"
+    },
+    "d3": {
+      "artifact_id": "artifact-012",
+      "payload_sha256": "41c2325028e9e502a5e082e5f7f900fb138a1e9801280fb837779522ff7bcb58",
+      "run_id": "run-01"
+    },
+    "r2": {
+      "artifact_id": "artifact-010",
+      "payload_sha256": "aaff7c027c9555d2a0c6dcb7636ec927ac1c7ba47f2c73092ce90bf2cf8f6c01",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "citations": [
+      "****"
+    ],
+    "division_results": [
+      {
+        "citations": [
+          "****"
+        ],
+        "data_volume_status": "****",
+        "division": "****",
+        "entry_text": "****",
+        "n_rows": "****",
+        "provenance_note": "****",
+        "subtotal_t": "****",
+        "years": [
+          "****"
+        ]
+      }
+    ],
+    "headline": "****",
+    "limitations": [
+      "****"
+    ],
+    "output_form": "****",
+    "portfolio_summary": {
+      "division_count": "****",
+      "n_adequate": "****",
+      "n_thin": "****",
+      "narrative": "****",
+      "portfolio_total_t": "****"
+    },
+    "readiness_assessment": "****",
+    "registry_id": "****"
+  },
+  "payload_sha256": "a4417b5cc438cb6aa8844e5bfb2bf147b41c3f9fcae2b63599545c477c6c4b89",
+  "reason": "F1 deliverable approved by human",
+  "registry_id": "uc3_csrd_scope2_measure",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

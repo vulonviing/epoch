@@ -1,0 +1,60 @@
+{
+  "_gold": {
+    "agent_id": "F1",
+    "agent_type": "llm",
+    "checkpoint": "F1",
+    "comparison_policy": "Deterministic values and the discrepancy/materiality flags are exact; memo prose, entry text, and citations are semantic.",
+    "human_gate": "G5",
+    "pipeline_order": 10,
+    "registry_id": "uc2_ets1_scope_memo",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-006",
+    "source_payload_sha256": "25434ade9757f174e80d88e00d74c4d3c9e4621d1c4a90f0b990c9cd6ce4d7f1",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": false
+  },
+  "payload": {
+    "citations": [
+      "****"
+    ],
+    "entries": [
+      {
+        "abs_delta": "****",
+        "citations": [
+          "****"
+        ],
+        "discrepancy_flag": "****",
+        "entry_text": "****",
+        "location_display": "****",
+        "location_id": "****",
+        "location_name": "****",
+        "material": "****",
+        "method_a": "****",
+        "method_b": "****",
+        "pct_diff": "****",
+        "scope_determination": "****",
+        "year": "****"
+      }
+    ],
+    "headline": "****",
+    "limitations": [
+      "****"
+    ],
+    "output_form": "****",
+    "portfolio_summary": {
+      "n_entries": "****",
+      "n_flagged": "****",
+      "n_material": "****",
+      "n_sites": "****",
+      "narrative": "****"
+    },
+    "registry_id": "****",
+    "sections": [
+      {
+        "body": "****",
+        "heading": "****"
+      }
+    ]
+  }
+}

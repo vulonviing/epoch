@@ -1,0 +1,110 @@
+{
+  "_source_path": "****",
+  "agent_id": "D1",
+  "approved_at": "****",
+  "artifact_id": "artifact-013",
+  "created_at": "****",
+  "input_refs": {
+    "da1": {
+      "artifact_id": "artifact-005",
+      "payload_sha256": "38517060b36dcad1e11c8803b1c348a912abf396164389314c7acbd4f6d1c980",
+      "run_id": "run-01"
+    },
+    "r2": {
+      "artifact_id": "artifact-010",
+      "payload_sha256": "aaff7c027c9555d2a0c6dcb7636ec927ac1c7ba47f2c73092ce90bf2cf8f6c01",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "data_request": {
+      "approved_field_ids": [
+        "****"
+      ],
+      "entity_grain": "****",
+      "filters": {
+        "bu_rc_group": [
+          "****"
+        ],
+        "cdp_region": [
+          "****"
+        ],
+        "emea": [
+          "****"
+        ],
+        "scope": [
+          "****"
+        ]
+      },
+      "intent": "****",
+      "measures": [
+        "****"
+      ],
+      "quality_policy": "****",
+      "regulation_field_mappings": [],
+      "request_id": "****",
+      "source_domain": "****",
+      "source_domains": [
+        "****"
+      ],
+      "time_grain": "****",
+      "time_window": {
+        "end": "****",
+        "start": "****"
+      },
+      "validation": {
+        "errors": [],
+        "ok": "****",
+        "warnings": []
+      }
+    },
+    "summary": {
+      "effective_time_range": [
+        "****"
+      ],
+      "grain": "****",
+      "measures": [
+        "****"
+      ],
+      "quality_policy": "****",
+      "requested_time_range": [
+        "****"
+      ],
+      "source_domain": "****",
+      "tables": [
+        "****"
+      ],
+      "tables_detail": {
+        "emissions": {
+          "column_count": "****",
+          "columns": [
+            "****"
+          ],
+          "quality_summary": {
+            "status": {
+              "Approved": "****"
+            }
+          },
+          "row_count": "****"
+        }
+      },
+      "time_range": [
+        "****"
+      ],
+      "time_window_clamped": "****",
+      "total_rows": "****",
+      "validation": {
+        "errors": [],
+        "ok": "****",
+        "warnings": []
+      }
+    }
+  },
+  "payload_sha256": "b455d388bdcdc48b3794b2e89b4e12303d747ae56a7d9a2f924ad6087516578d",
+  "reason": "D1 data execution completed from approved handoff",
+  "registry_id": "uc3_csrd_scope2_measure",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

@@ -1,0 +1,1576 @@
+{
+  "_source_path": "****",
+  "agent_id": "DA1",
+  "approved_at": "****",
+  "artifact_id": "artifact-005",
+  "created_at": "****",
+  "input_refs": {
+    "r1": {
+      "artifact_id": "artifact-009",
+      "payload_sha256": "5cba293f95927f09329cc6176b02e7ddbc25e2c065e30265295901aa6c76c193",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "approved_mapping_scope": {
+      "approved_at": "****",
+      "approved_field_ids": [
+        "****"
+      ],
+      "approved_mappings": [
+        {
+          "alternative_targets": [],
+          "catalog_targets": [
+            {
+              "aggregation": "****",
+              "filters": [
+                {
+                  "column": "****",
+                  "op": "****",
+                  "value": [
+                    "****"
+                  ]
+                }
+              ],
+              "kind": "****",
+              "name": "****",
+              "quality_flags": [],
+              "source_column": "****",
+              "source_table": "****"
+            }
+          ],
+          "field_id": "****",
+          "field_name": "****",
+          "human_decision": "****",
+          "priority": "****",
+          "reason": "****",
+          "role": "****",
+          "status": "****"
+        }
+      ],
+      "handoff_data_request": {
+        "approved_field_ids": [
+          "****"
+        ],
+        "entity_grain": "****",
+        "filters": {
+          "bu_rc_group": [
+            "****"
+          ],
+          "cdp_region": [
+            "****"
+          ],
+          "emea": [
+            "****"
+          ],
+          "scope": [
+            "****"
+          ]
+        },
+        "intent": "****",
+        "measures": [
+          "****"
+        ],
+        "quality_policy": "****",
+        "request_id": "****",
+        "source_domain": "****",
+        "time_grain": "****",
+        "time_window": {
+          "end": "****",
+          "start": "****"
+        }
+      },
+      "human_decisions": [
+        {
+          "catalog_target": null,
+          "decision": "****",
+          "field_id": "****",
+          "field_name": "****",
+          "priority": "****",
+          "reviewed_at": "****"
+        }
+      ],
+      "registry_id": "****",
+      "schema_version": "****"
+    },
+    "catalog_snapshot": {
+      "allowed_grains": {
+        "entity_grain": [
+          "****"
+        ],
+        "time_grain": [
+          "****"
+        ]
+      },
+      "available_date_range": {
+        "available_fiscal_quarters": [
+          "****"
+        ],
+        "available_fiscal_years": [
+          "****"
+        ],
+        "max_period_date": "****",
+        "min_period_date": "****"
+      },
+      "catalog_version": "****",
+      "column_quality_policies": {
+        "emissions.co2e_t": {
+          "deferred": "****",
+          "nullable": "****",
+          "valid_range": [
+            "****"
+          ],
+          "zero_policy": "****"
+        },
+        "energy.amount_consumed_mwh": {
+          "deferred": "****",
+          "nullable": "****",
+          "valid_range": [
+            "****"
+          ],
+          "zero_policy": "****"
+        }
+      },
+      "executor_capabilities": {
+        "empty_filter_semantics": "****",
+        "entity_grains": [
+          "****"
+        ],
+        "generated_only_measures": [
+          "****"
+        ],
+        "measure_aliases": {
+          "co2_equivalent_t": "****",
+          "consumption_mwh": "****"
+        },
+        "quality_policies": [
+          "****"
+        ],
+        "quality_policy_definitions": {
+          "exclude_inconsistent": {
+            "excluded_flags": [
+              "****"
+            ],
+            "quality_columns": [
+              "****"
+            ]
+          },
+          "exclude_missing_and_inconsistent": {
+            "excluded_flags": [
+              "****"
+            ],
+            "quality_columns": [
+              "****"
+            ]
+          },
+          "include_all": {
+            "excluded_flags": [],
+            "quality_columns": []
+          },
+          "report_flags_only": {
+            "excluded_flags": [],
+            "quality_columns": [
+              "****"
+            ]
+          }
+        },
+        "requestable_measures": {
+          "emissions": [
+            "****"
+          ],
+          "energy": [
+            "****"
+          ],
+          "kpi": [
+            "****"
+          ]
+        },
+        "source_domains": [
+          "****"
+        ],
+        "time_grains": [
+          "****"
+        ]
+      },
+      "field_index": {
+        "bu_rc_groups.bu_rc": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "bu_rc_groups.bu_rc_group": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.active": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.amount_consumed_mwh": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.bu_rc_id": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.bu_rc_name": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.co2_factor": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.co2e_t": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.country": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.emissions_t": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.fiscal_quarter": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.fiscal_year": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.halo_name": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.load_date": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.location_id": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.location_name": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.media_type": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.pk_energy": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.report_id": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.scope": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.source_last_updated": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_emissions_raw.status": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.active": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.amount_consumed_gj": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.amount_consumed_mwh": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.bu_rc_id": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.bu_rc_name": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.co2_factor": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.co2e_t": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.costs": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.country": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.energy_classification": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.fiscal_quarter": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.fiscal_year": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.load_date": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.location_id": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.location_name": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.media_type": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.pk_energy": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.primary_energy_remark": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.renewable_energy": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.report_id": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.secondary_energy_remark": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.share_renewable": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.source_last_updated": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "dist_ie_energy_raw.status": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [],
+          "table": "****"
+        },
+        "locations.active": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "locations.address": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "locations.bu_rc_id": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "locations.bu_rc_name": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "locations.city": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "locations.country": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "locations.latitude": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "locations.location_id": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "locations.location_name": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "locations.longitude": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "locations.zip_code": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "regions.cdp_region": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "regions.country_code": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        },
+        "regions.country_name": {
+          "column": "****",
+          "dtype": "****",
+          "nullable": "****",
+          "role": "****",
+          "source_domains": [
+            "****"
+          ],
+          "table": "****"
+        }
+      },
+      "filter_definitions": {
+        "bu_rc": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "bu_rc_code": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "legacy_alias_of": "****",
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "bu_rc_group": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "bu_rc_id": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "bu_rc_name": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "cdp_region": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "country_code": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "country_name": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "emea": {
+          "derivation": "****",
+          "derived": "****",
+          "empty_value_semantics": "****",
+          "join_paths": {},
+          "source": null,
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "iso2_code": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "legacy_alias_of": "****",
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "location_city": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "location_country": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "location_id": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "location_name": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "region_name": {
+          "empty_value_semantics": "****",
+          "join_paths": {
+            "energy": [
+              "****"
+            ]
+          },
+          "legacy_alias_of": "****",
+          "source": "****",
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        },
+        "size_tier": {
+          "derivation": "****",
+          "derived": "****",
+          "empty_value_semantics": "****",
+          "join_paths": {},
+          "source": null,
+          "source_domains": [
+            "****"
+          ],
+          "value_source": "****"
+        }
+      },
+      "grain_definitions": {
+        "entity": {
+          "bu_rc": {
+            "group_by": [
+              "****"
+            ],
+            "requires": [
+              "****"
+            ]
+          },
+          "country": {
+            "group_by": [
+              "****"
+            ],
+            "identity_field": "****",
+            "requires": [
+              "****"
+            ]
+          },
+          "portfolio": {
+            "group_by": [],
+            "requires": []
+          },
+          "region": {
+            "group_by": [
+              "****"
+            ],
+            "requires": [
+              "****"
+            ]
+          },
+          "site": {
+            "group_by": [
+              "****"
+            ],
+            "identity_field": "****",
+            "requires": [
+              "****"
+            ]
+          }
+        },
+        "time": {
+          "multi_year": {
+            "period_sources": {},
+            "transform": "****"
+          },
+          "quarter": {
+            "note": "****",
+            "period_sources": {
+              "emissions": "****",
+              "energy": "****"
+            },
+            "time_period_format": "****",
+            "transform": "****"
+          },
+          "year": {
+            "note": "****",
+            "period_sources": {
+              "emissions": "****",
+              "energy": "****"
+            },
+            "time_period_format": "****",
+            "transform": "****"
+          }
+        }
+      },
+      "measure_definitions": {
+        "amount_consumed_mwh": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        },
+        "co2_t": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        },
+        "co2_total_t": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        },
+        "co2e_t": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        },
+        "emissions_t": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        },
+        "energy_mwh": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        },
+        "kpi_value": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        },
+        "renewable_energy": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        },
+        "scope2_location_t": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        },
+        "scope2_market_proxy_t": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        },
+        "share_renewable": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        },
+        "value": {
+          "aggregation": "****",
+          "deferred": "****",
+          "note": "****",
+          "requestable": "****",
+          "requires": [
+            "****"
+          ],
+          "source_domain": "****"
+        }
+      },
+      "measures": {
+        "derived_measures": {
+          "scope2_location_t": {
+            "formula": "****",
+            "requestable": "****",
+            "requires": [
+              "****"
+            ]
+          },
+          "scope2_market_proxy_t": {
+            "formula": "****",
+            "requestable": "****",
+            "requires": [
+              "****"
+            ]
+          }
+        },
+        "energy_fact_measures": {
+          "amount_consumed_mwh": {
+            "default_aggregation": "****",
+            "requestable": "****",
+            "unit": "****"
+          },
+          "co2_t": {
+            "default_aggregation": "****",
+            "requestable": "****",
+            "unit": "****"
+          },
+          "co2e_t": {
+            "default_aggregation": "****",
+            "requestable": "****",
+            "unit": "****"
+          },
+          "emissions_t": {
+            "default_aggregation": "****",
+            "note": "****",
+            "requestable": "****",
+            "unit": "****"
+          },
+          "energy_mwh": {
+            "default_aggregation": "****",
+            "note": "****",
+            "requestable": "****",
+            "unit": "****"
+          },
+          "renewable_energy": {
+            "default_aggregation": "****",
+            "requestable": "****",
+            "unit": "****"
+          },
+          "share_renewable": {
+            "default_aggregation": "****",
+            "requestable": "****",
+            "unit": "****"
+          }
+        },
+        "kpi_fact_measures": {
+          "co2_total_t": {
+            "default_aggregation": "****",
+            "note": "****",
+            "requestable": "****",
+            "unit": "****"
+          },
+          "kpi_value": {
+            "default_aggregation": "****",
+            "note": "****",
+            "requestable": "****",
+            "unit": "****"
+          },
+          "value": {
+            "default_aggregation": "****",
+            "note": "****",
+            "requestable": "****",
+            "unit": "****"
+          }
+        }
+      },
+      "minimum_source_grain": {
+        "entity": "****",
+        "monthly_supported": "****",
+        "note": "****",
+        "time": "****",
+        "weekly_supported": "****"
+      },
+      "quality_check_definitions": {
+        "completeness": {
+          "deferred": "****",
+          "requires": [],
+          "tables": [
+            "****"
+          ]
+        },
+        "duplicates": {
+          "deferred": "****",
+          "requires": [
+            "****"
+          ],
+          "tables": [
+            "****"
+          ]
+        },
+        "referential_integrity": {
+          "deferred": "****",
+          "requires": [
+            "****"
+          ],
+          "tables": [
+            "****"
+          ]
+        },
+        "schema": {
+          "deferred": "****",
+          "requires": [],
+          "tables": [
+            "****"
+          ]
+        },
+        "timeliness": {
+          "deferred": "****",
+          "note": "****",
+          "requires": [
+            "****"
+          ],
+          "tables": [
+            "****"
+          ]
+        },
+        "validity": {
+          "deferred": "****",
+          "requires": [
+            "****"
+          ],
+          "tables": [
+            "****"
+          ]
+        }
+      },
+      "quality_policies": [
+        "****"
+      ],
+      "relationships": {
+        "bu_rc": "****",
+        "region": "****",
+        "report": "****",
+        "site": "****"
+      },
+      "schema_signature": "****",
+      "selectable_filters": {
+        "energy_filters": {
+          "energy_class": {
+            "legacy_alias_of": "****",
+            "values": [
+              "****"
+            ]
+          },
+          "energy_classification": [
+            "****"
+          ],
+          "media_name": {
+            "legacy_alias_of": "****",
+            "values": [
+              "****"
+            ]
+          },
+          "media_type": [
+            "****"
+          ],
+          "scope": [
+            "****"
+          ]
+        },
+        "entity_filters": {
+          "bu_rc": [
+            "****"
+          ],
+          "bu_rc_code": {
+            "legacy_alias_of": "****",
+            "values": [
+              "****"
+            ]
+          },
+          "bu_rc_group": [
+            "****"
+          ],
+          "bu_rc_id": [
+            "****"
+          ],
+          "bu_rc_name": [
+            "****"
+          ],
+          "cdp_region": [
+            "****"
+          ],
+          "country_code": [
+            "****"
+          ],
+          "country_name": [
+            "****"
+          ],
+          "emea": {
+            "derivation": "****",
+            "derived": "****",
+            "source_column": null,
+            "values": [
+              "****"
+            ]
+          },
+          "iso2_code": {
+            "legacy_alias_of": "****",
+            "values": [
+              "****"
+            ]
+          },
+          "location_city": [
+            "****"
+          ],
+          "location_country": [
+            "****"
+          ],
+          "location_id": [
+            "****"
+          ],
+          "location_name": [
+            "****"
+          ],
+          "region_name": {
+            "legacy_alias_of": "****",
+            "values": [
+              "****"
+            ]
+          },
+          "size_tier": {
+            "derivation": "****",
+            "derived": "****",
+            "source_column": null,
+            "values": [
+              "****"
+            ]
+          }
+        },
+        "quality_filters": {
+          "data_quality_flag": {
+            "deferred": "****",
+            "note": "****"
+          },
+          "is_late": {
+            "deferred": "****",
+            "note": "****"
+          },
+          "is_missing": {
+            "deferred": "****",
+            "note": "****"
+          }
+        },
+        "time_filters": {
+          "fiscal_quarter": [
+            "****"
+          ],
+          "fiscal_year": [
+            "****"
+          ],
+          "iso_week": {
+            "deferred": "****",
+            "note": "****"
+          },
+          "iso_year": {
+            "deferred": "****",
+            "note": "****"
+          }
+        }
+      },
+      "source_domains": {
+        "emissions": {
+          "dimension_tables": [
+            "****"
+          ],
+          "fact_table": "****",
+          "note": "****"
+        },
+        "energy": {
+          "dimension_tables": [
+            "****"
+          ],
+          "emissions_table": "****",
+          "fact_table": "****",
+          "note": "****",
+          "time_reference_table": "****"
+        },
+        "energy_and_kpi": {
+          "composed_of": [
+            "****"
+          ],
+          "note": "****"
+        },
+        "kpi": {
+          "dimension_tables": [
+            "****"
+          ],
+          "emissions_table": "****",
+          "fact_table": "****",
+          "note": "****"
+        }
+      },
+      "source_tables": {
+        "bu_rc_groups": {
+          "columns": [
+            {
+              "dtype": "****",
+              "name": "****",
+              "null_count": "****",
+              "unique_count": "****"
+            }
+          ],
+          "row_count": "****"
+        },
+        "dist_ie_energy_emissions_raw": {
+          "columns": [
+            {
+              "dtype": "****",
+              "name": "****",
+              "null_count": "****",
+              "unique_count": "****"
+            }
+          ],
+          "row_count": "****"
+        },
+        "dist_ie_energy_raw": {
+          "columns": [
+            {
+              "dtype": "****",
+              "name": "****",
+              "null_count": "****",
+              "unique_count": "****"
+            }
+          ],
+          "row_count": "****"
+        },
+        "locations": {
+          "columns": [
+            {
+              "dtype": "****",
+              "name": "****",
+              "null_count": "****",
+              "unique_count": "****"
+            }
+          ],
+          "row_count": "****"
+        },
+        "regions": {
+          "columns": [
+            {
+              "dtype": "****",
+              "name": "****",
+              "null_count": "****",
+              "unique_count": "****"
+            }
+          ],
+          "row_count": "****"
+        }
+      },
+      "structured_relationships": [
+        {
+          "cardinality": "****",
+          "deferred": "****",
+          "from": "****",
+          "join_type": "****",
+          "relationship_id": "****",
+          "to": "****"
+        }
+      ]
+    },
+    "handoff_data_request": {
+      "approved_field_ids": [
+        "****"
+      ],
+      "entity_grain": "****",
+      "filters": {
+        "bu_rc_group": [
+          "****"
+        ],
+        "cdp_region": [
+          "****"
+        ],
+        "emea": [
+          "****"
+        ],
+        "scope": [
+          "****"
+        ]
+      },
+      "intent": "****",
+      "measures": [
+        "****"
+      ],
+      "quality_policy": "****",
+      "request_id": "****",
+      "source_domain": "****",
+      "time_grain": "****",
+      "time_window": {
+        "end": "****",
+        "start": "****"
+      }
+    },
+    "human_decisions": [
+      {
+        "catalog_target": null,
+        "decision": "****",
+        "field_id": "****",
+        "field_name": "****",
+        "priority": "****",
+        "reviewed_at": "****"
+      }
+    ],
+    "mapping_report": {
+      "field_mappings": [
+        {
+          "alternative_targets": [],
+          "catalog_targets": [],
+          "field_id": "****",
+          "field_name": "****",
+          "priority": "****",
+          "reason": "****",
+          "role": "****",
+          "status": "****"
+        }
+      ],
+      "notes": [
+        "****"
+      ],
+      "suggested_request": {
+        "entity_grain": "****",
+        "filters": {
+          "bu_rc_group": [
+            "****"
+          ],
+          "cdp_region": [
+            "****"
+          ],
+          "scope": [
+            "****"
+          ]
+        },
+        "measures": [
+          "****"
+        ],
+        "quality_policy": "****",
+        "source_domain": "****",
+        "time_grain": "****",
+        "time_window": {
+          "end": "****",
+          "start": "****"
+        }
+      },
+      "summary": "****",
+      "validation": {
+        "errors": [],
+        "ok": "****",
+        "warnings": [
+          "****"
+        ]
+      }
+    }
+  },
+  "payload_sha256": "38517060b36dcad1e11c8803b1c348a912abf396164389314c7acbd4f6d1c980",
+  "reason": "DA1 mapping scope approved by human",
+  "registry_id": "uc3_csrd_scope2_measure",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

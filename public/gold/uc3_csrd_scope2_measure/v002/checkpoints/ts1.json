@@ -1,0 +1,48 @@
+{
+  "_gold": {
+    "agent_id": "TS1",
+    "agent_type": "llm",
+    "checkpoint": "TS1",
+    "comparison_policy": "selected_topology_id must equal Coalition; score percentages are not exact-match targets, only a margin signal.",
+    "human_gate": "G4",
+    "observed_agents": [
+      "C1",
+      "C2",
+      "EX1",
+      "EX2",
+      "F1"
+    ],
+    "pipeline_order": 7,
+    "registry_id": "uc3_csrd_scope2_measure",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-011",
+    "source_payload_sha256": "84a2cbb73c2008cc4be36a90f630478fe10443f3fc9577813e923ffd30fec60e",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": false
+  },
+  "payload": {
+    "alternatives": [
+      {
+        "topology_id": "****",
+        "why_not": "****"
+      }
+    ],
+    "bindings": [],
+    "limitations": [
+      "****"
+    ],
+    "rationale": "****",
+    "selected_topology_id": "****",
+    "signal_sources": {
+      "selected_topology_id": [
+        "****"
+      ]
+    },
+    "topology_scores": {
+      "Coalition": "****",
+      "Debate": "****",
+      "Direct": "****"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_gold": {
+    "agent_id": "C1",
+    "agent_type": "llm",
+    "checkpoint": "C1",
+    "comparison_policy": "C1 owns divisional Scope 2 subtotals as **** Coalition domain agent; n_rows/subtotal_t are data-derived, data_volume_status is the agent's own evidence-depth judgment, narrative is semantic.",
+    "human_gate": null,
+    "pipeline_order": 8,
+    "registry_id": "uc3_csrd_scope2_measure",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-001",
+    "source_payload_sha256": "7026f9cfb832062e508c7e5e6552f6a4589de400c93d9d3ef9da7dae3a1a2077",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": true
+  },
+  "payload": {
+    "registry_id": "****",
+    "rows": [
+      {
+        "carried_caveats": [
+          "****"
+        ],
+        "data_volume_status": "****",
+        "division": "****",
+        "n_rows": "****",
+        "narrative": "****",
+        "provenance_note": "****",
+        "subtotal_t": "****",
+        "years": [
+          "****"
+        ]
+      }
+    ]
+  }
+}

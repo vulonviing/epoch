@@ -1,0 +1,512 @@
+{
+  "checkpoints": {
+    "CP1": {
+      "agent_id": "CP1",
+      "agent_type": "llm",
+      "collections": {},
+      "comparison_policy": "Categorical routing fields are exact labels; explanatory prose is semantic.",
+      "field_classes": {
+        "assurance_artifact": "exact",
+        "assurance_level": "exact",
+        "cluster_count": "exact",
+        "cross_functional_need": "exact",
+        "deadline_proximity_days": "ignored",
+        "dual_method_required": "exact",
+        "limitations[]": "semantic",
+        "output_profile.description": "semantic",
+        "output_profile.form": "exact",
+        "output_profile.output_type": "exact",
+        "risk_level": "exact",
+        "signal_sources": "semantic",
+        "task_type": "exact",
+        "uncertainty": "exact"
+      },
+      "human_gate": "G3",
+      "pipeline_order": 6,
+      "topology_scoped": false
+    },
+    "D2": {
+      "agent_id": "D2",
+      "agent_type": "hybrid",
+      "collections": {},
+      "comparison_policy": "D2 is Hybrid: the deterministic engine's counts are data-derived, the LLM's routing verdict and summary are semantic. D2 is diagnostic evidence for CP1, not a human-approved boundary.",
+      "field_classes": {
+        "assessable_claims": "data_derived",
+        "blocked_claims": "data_derived",
+        "evidence_completeness": "numeric",
+        "max_severity": "exact",
+        "routing_recommendation": "exact",
+        "summary": "semantic",
+        "verdict": "exact"
+      },
+      "human_gate": null,
+      "pipeline_order": 5,
+      "tolerances": {
+        "evidence_completeness": "****"
+      },
+      "topology_scoped": false
+    },
+    "DA1": {
+      "agent_id": "DA1",
+      "agent_type": "llm",
+      "collections": {
+        "approved_mapping_scope.approved_mappings": {
+          "expected_count": 8,
+          "join_key": [
+            "field_id"
+          ]
+        },
+        "human_decisions": {
+          "expected_count": 16,
+          "join_key": [
+            "field_id"
+          ]
+        },
+        "mapping_report.field_mappings": {
+          "expected_count": 16,
+          "join_key": [
+            "field_id"
+          ]
+        }
+      },
+      "comparison_policy": "Human mapping decisions and resulting handoff are canonical; timestamps and catalog_snapshot are provenance only.",
+      "field_classes": {
+        "approved_mapping_scope.approved_field_ids": "exact",
+        "approved_mapping_scope.approved_mappings[].alternative_targets": "exact",
+        "approved_mapping_scope.approved_mappings[].catalog_targets": "exact",
+        "approved_mapping_scope.approved_mappings[].priority": "exact",
+        "approved_mapping_scope.approved_mappings[].reason": "semantic",
+        "approved_mapping_scope.approved_mappings[].role": "exact",
+        "approved_mapping_scope.approved_mappings[].status": "data_derived",
+        "approved_mapping_scope.handoff_data_request": "ignored",
+        "approved_mapping_scope.human_decisions": "ignored",
+        "approved_mapping_scope.registry_id": "ignored",
+        "approved_mapping_scope.schema_version": "ignored",
+        "handoff_data_request.approved_field_ids": "exact",
+        "handoff_data_request.entity_grain": "exact",
+        "handoff_data_request.filters": "exact",
+        "handoff_data_request.intent": "semantic",
+        "handoff_data_request.measures": "exact",
+        "handoff_data_request.quality_policy": "exact",
+        "handoff_data_request.request_id": "ignored",
+        "handoff_data_request.source_domain": "exact",
+        "handoff_data_request.time_grain": "exact",
+        "handoff_data_request.time_window": "exact",
+        "human_decisions[].catalog_target": "exact",
+        "human_decisions[].decision": "exact",
+        "human_decisions[].field_id": "exact",
+        "human_decisions[].field_name": "exact",
+        "human_decisions[].priority": "exact",
+        "mapping_report.field_mappings[].alternative_targets": "exact",
+        "mapping_report.field_mappings[].catalog_targets": "exact",
+        "mapping_report.field_mappings[].priority": "exact",
+        "mapping_report.field_mappings[].reason": "semantic",
+        "mapping_report.field_mappings[].role": "exact",
+        "mapping_report.field_mappings[].status": "data_derived",
+        "mapping_report.notes[]": "semantic",
+        "mapping_report.suggested_request": "data_derived",
+        "mapping_report.summary": "semantic",
+        "mapping_report.validation.errors[]": "semantic",
+        "mapping_report.validation.ok": "exact",
+        "mapping_report.validation.warnings[]": "semantic"
+      },
+      "human_gate": "G1",
+      "pipeline_order": 2,
+      "topology_scoped": false
+    },
+    "EX1": {
+      "agent_id": "EX1",
+      "agent_type": "llm",
+      "collections": {
+        "bullets": {
+          "expected_count": null,
+          "join_key": []
+        }
+      },
+      "comparison_policy": "EX1 is advisory, external-only commentary run immediately before the R2 human gate; it is outside the topology and never consumed by any downstream agent. bullets[] has no join_key and is matched as an unordered set: a model is judged on whether it surfaced comparable concerns from allowlisted institutions, not on reproducing the gold's bullet text or bullet count.",
+      "field_classes": {
+        "bullets[].grounding": "exact",
+        "bullets[].point": "semantic",
+        "bullets[].relevance": "exact",
+        "bullets[].sources[].institution": "exact",
+        "bullets[].sources[].published": "ignored",
+        "bullets[].sources[].title": "semantic",
+        "bullets[].sources[].url": "ignored",
+        "bullets[].stance": "exact",
+        "institutions_consulted[]": "semantic",
+        "registry_id": "exact",
+        "search_notes[]": "semantic",
+        "stage_id": "exact"
+      },
+      "human_gate": null,
+      "pipeline_order": 4,
+      "topology_scoped": false
+    },
+    "EX2": {
+      "agent_id": "EX2",
+      "agent_type": "llm",
+      "collections": {
+        "bullets": {
+          "expected_count": null,
+          "join_key": []
+        }
+      },
+      "comparison_policy": "EX2 is advisory, external-only commentary run immediately before the F1 human gate; it is outside the topology and never consumed by any downstream agent. bullets[] has no join_key and is matched as an unordered set: a model is judged on whether it surfaced comparable concerns from allowlisted institutions, not on reproducing the gold's bullet text or bullet count.",
+      "field_classes": {
+        "bullets[].grounding": "exact",
+        "bullets[].point": "semantic",
+        "bullets[].relevance": "exact",
+        "bullets[].sources[].institution": "exact",
+        "bullets[].sources[].published": "ignored",
+        "bullets[].sources[].title": "semantic",
+        "bullets[].sources[].url": "ignored",
+        "bullets[].stance": "exact",
+        "institutions_consulted[]": "semantic",
+        "registry_id": "exact",
+        "search_notes[]": "semantic",
+        "stage_id": "exact"
+      },
+      "human_gate": null,
+      "pipeline_order": 11,
+      "topology_scoped": false
+    },
+    "F1": {
+      "agent_id": "F1",
+      "agent_type": "llm",
+      "collections": {
+        "entries": {
+          "expected_count": 53,
+          "join_key": [
+            "location_id",
+            "year"
+          ]
+        }
+      },
+      "comparison_policy": "Deterministic values and the discrepancy/materiality flags are exact; memo prose, entry text, and citations are semantic.",
+      "field_classes": {
+        "citations[]": "semantic",
+        "entries[].abs_delta": "data_derived",
+        "entries[].citations[]": "semantic",
+        "entries[].discrepancy_flag": "exact",
+        "entries[].entry_text": "semantic",
+        "entries[].location_display": "data_derived",
+        "entries[].location_id": "exact",
+        "entries[].location_name": "data_derived",
+        "entries[].material": "exact",
+        "entries[].method_a": "data_derived",
+        "entries[].method_b": "data_derived",
+        "entries[].pct_diff": "data_derived",
+        "entries[].scope_determination": "semantic",
+        "entries[].year": "exact",
+        "headline": "semantic",
+        "limitations[]": "semantic",
+        "output_form": "ignored",
+        "portfolio_summary.n_entries": "data_derived",
+        "portfolio_summary.n_flagged": "data_derived",
+        "portfolio_summary.n_material": "data_derived",
+        "portfolio_summary.n_sites": "data_derived",
+        "portfolio_summary.narrative": "semantic",
+        "registry_id": "ignored",
+        "sections[].body": "semantic",
+        "sections[].heading": "semantic"
+      },
+      "human_gate": "G5",
+      "pipeline_order": 10,
+      "topology_scoped": false
+    },
+    "P2": {
+      "agent_id": "P2",
+      "agent_type": "llm",
+      "collections": {
+        "rows": {
+          "expected_count": null,
+          "join_key": [
+            "location_id",
+            "year"
+          ]
+        }
+      },
+      "comparison_policy": "P2 is **** of **** independent Debate readers; no reader sees the other before S1 reconciles. Carried-forward D3 fields are data-derived, interpretation and grounding are semantic.",
+      "field_classes": {
+        "rows[].abs_delta": "data_derived",
+        "rows[].address": "data_derived",
+        "rows[].article_grounding": "semantic",
+        "rows[].carried_caveats[]": "semantic",
+        "rows[].cdp_region": "data_derived",
+        "rows[].city": "data_derived",
+        "rows[].country": "data_derived",
+        "rows[].country_code": "data_derived",
+        "rows[].country_name": "data_derived",
+        "rows[].defensibility": "semantic",
+        "rows[].discrepancy_flag": "exact",
+        "rows[].interpretation": "semantic",
+        "rows[].latitude": "data_derived",
+        "rows[].location_id": "exact",
+        "rows[].location_name": "data_derived",
+        "rows[].longitude": "data_derived",
+        "rows[].method_a": "data_derived",
+        "rows[].method_b": "data_derived",
+        "rows[].method_column": "data_derived",
+        "rows[].method_figure": "data_derived",
+        "rows[].method_label": "data_derived",
+        "rows[].pct_diff": "data_derived",
+        "rows[].year": "exact",
+        "rows[].zip_code": "data_derived"
+      },
+      "human_gate": null,
+      "pipeline_order": 8,
+      "topology_scoped": true
+    },
+    "P3": {
+      "agent_id": "P3",
+      "agent_type": "llm",
+      "collections": {
+        "rows": {
+          "expected_count": null,
+          "join_key": [
+            "location_id",
+            "year"
+          ]
+        }
+      },
+      "comparison_policy": "P3 is the second independent Debate reader, blind to P2's output until S1 reconciles.",
+      "field_classes": {
+        "rows[].abs_delta": "data_derived",
+        "rows[].address": "data_derived",
+        "rows[].article_grounding": "semantic",
+        "rows[].carried_caveats[]": "semantic",
+        "rows[].cdp_region": "data_derived",
+        "rows[].city": "data_derived",
+        "rows[].country": "data_derived",
+        "rows[].country_code": "data_derived",
+        "rows[].country_name": "data_derived",
+        "rows[].defensibility": "semantic",
+        "rows[].discrepancy_flag": "exact",
+        "rows[].interpretation": "semantic",
+        "rows[].latitude": "data_derived",
+        "rows[].location_id": "exact",
+        "rows[].location_name": "data_derived",
+        "rows[].longitude": "data_derived",
+        "rows[].method_a": "data_derived",
+        "rows[].method_b": "data_derived",
+        "rows[].method_column": "data_derived",
+        "rows[].method_figure": "data_derived",
+        "rows[].method_label": "data_derived",
+        "rows[].pct_diff": "data_derived",
+        "rows[].year": "exact",
+        "rows[].zip_code": "data_derived"
+      },
+      "human_gate": null,
+      "pipeline_order": 8,
+      "topology_scoped": true
+    },
+    "R1": {
+      "agent_id": "R1",
+      "agent_type": "llm",
+      "collections": {
+        "findings": {
+          "expected_count": null,
+          "join_key": [
+            "finding_id"
+          ]
+        },
+        "possible_fields": {
+          "expected_count": null,
+          "join_key": [
+            "field_id"
+          ]
+        },
+        "selected_pages": {
+          "expected_count": null,
+          "join_key": [
+            "page"
+          ]
+        }
+      },
+      "comparison_policy": "R1 is diagnostic evidence for DA1's mapping, not a human-approved boundary; findings and possible_fields are judged for regulatory grounding and coverage, not literal reproduction.",
+      "field_classes": {
+        "cache_signature": "ignored",
+        "findings[].evidence_excerpt": "semantic",
+        "findings[].finding_id": "exact",
+        "findings[].page": "data_derived",
+        "findings[].requirement_type": "exact",
+        "findings[].source_file": "exact",
+        "findings[].source_ref": "exact",
+        "findings[].statement": "semantic",
+        "missing_regulatory_context[]": "semantic",
+        "possible_fields[].description": "semantic",
+        "possible_fields[].expected_grain": "semantic",
+        "possible_fields[].expected_unit": "semantic",
+        "possible_fields[].field_id": "exact",
+        "possible_fields[].finding_refs": "exact",
+        "possible_fields[].name": "exact",
+        "possible_fields[].priority": "exact",
+        "possible_fields[].reason": "semantic",
+        "possible_fields[].role": "exact",
+        "selected_pages[].page": "data_derived",
+        "selected_pages[].reason": "semantic",
+        "selected_pages[].source_file": "exact",
+        "selected_pages[].source_ref": "exact",
+        "source_hashes": "ignored",
+        "stop_reason": "ignored",
+        "summary": "semantic",
+        "verdict": "exact"
+      },
+      "human_gate": null,
+      "pipeline_order": 1,
+      "topology_scoped": false
+    },
+    "R2": {
+      "agent_id": "R2",
+      "agent_type": "llm",
+      "collections": {
+        "in_scope_findings": {
+          "expected_count": 5,
+          "join_key": [
+            "r2_finding_id"
+          ]
+        }
+      },
+      "comparison_policy": "Boundary decisions, legal grounding, and limitations are semantic targets; requirement_type and approved_field_ids are exact.",
+      "field_classes": {
+        "blocked_findings[].r1_finding_id": "exact",
+        "blocked_findings[].reason": "semantic",
+        "blocked_findings[].related_field_ids": "exact",
+        "excluded_findings[].r1_finding_id": "exact",
+        "excluded_findings[].reason": "semantic",
+        "excluded_findings[].related_field_ids": "exact",
+        "human_review.blocked_acknowledged": "exact",
+        "human_review.decision": "exact",
+        "human_review.excluded_acknowledged": "exact",
+        "human_review.reviewed_at": "ignored",
+        "in_scope_findings[].approved_field_ids": "exact",
+        "in_scope_findings[].assessment_boundary": "semantic",
+        "in_scope_findings[].citations[].evidence_excerpt": "semantic",
+        "in_scope_findings[].citations[].page": "data_derived",
+        "in_scope_findings[].citations[].source_file": "exact",
+        "in_scope_findings[].citations[].source_ref": "exact",
+        "in_scope_findings[].r1_finding_refs": "exact",
+        "in_scope_findings[].r2_finding_id": "exact",
+        "in_scope_findings[].requirement_type": "exact",
+        "in_scope_findings[].statement": "semantic",
+        "limitations[]": "semantic",
+        "registry_id": "ignored",
+        "schema_version": "ignored",
+        "summary": "semantic"
+      },
+      "human_gate": "G2",
+      "pipeline_order": 3,
+      "topology_scoped": false
+    },
+    "S1": {
+      "agent_id": "S1",
+      "agent_type": "llm",
+      "collections": {
+        "rows": {
+          "expected_count": null,
+          "join_key": [
+            "location_id",
+            "year"
+          ]
+        }
+      },
+      "comparison_policy": "S1 reconciles P2 and P3's independent reads; its verdict fields are the binding Debate output judged against the gold's own reconciled conclusion, not against P2 or P3 individually.",
+      "field_classes": {
+        "carried_caveats[]": "semantic",
+        "rows[].abs_delta": "data_derived",
+        "rows[].carried_caveats[]": "semantic",
+        "rows[].cdp_region": "data_derived",
+        "rows[].citations[]": "semantic",
+        "rows[].city": "data_derived",
+        "rows[].country_name": "data_derived",
+        "rows[].delta_interpretation": "semantic",
+        "rows[].discrepancy_flag": "exact",
+        "rows[].location_id": "exact",
+        "rows[].location_name": "data_derived",
+        "rows[].materiality_verdict": "exact",
+        "rows[].method_a": "data_derived",
+        "rows[].method_a_grounding": "semantic",
+        "rows[].method_a_label": "data_derived",
+        "rows[].method_b": "data_derived",
+        "rows[].method_b_grounding": "semantic",
+        "rows[].method_b_label": "data_derived",
+        "rows[].pct_diff": "data_derived",
+        "rows[].reconciled_conclusion": "semantic",
+        "rows[].year": "exact"
+      },
+      "human_gate": null,
+      "pipeline_order": 9,
+      "topology_scoped": true
+    },
+    "TS1": {
+      "agent_id": "TS1",
+      "agent_type": "llm",
+      "collections": {
+        "alternatives": {
+          "expected_count": 2,
+          "join_key": [
+            "topology_id"
+          ]
+        }
+      },
+      "comparison_policy": "selected_topology_id must equal Debate; score percentages are not exact-match targets, only a margin signal.",
+      "field_classes": {
+        "alternatives[].topology_id": "exact",
+        "alternatives[].why_not": "semantic",
+        "bindings": "ignored",
+        "limitations[]": "semantic",
+        "rationale": "semantic",
+        "selected_topology_id": "exact",
+        "signal_sources": "semantic",
+        "topology_scores": "numeric"
+      },
+      "human_gate": "G4",
+      "pipeline_order": 7,
+      "tolerances": {
+        "topology_scores.*": 15
+      },
+      "topology_scoped": false
+    }
+  },
+  "comparison_classes": {
+    "data_derived": "Follows from the data snapshot. Comparable only when the run used the same catalog; otherwise report as data drift, not as a miss.",
+    "exact": "Must equal the gold literally. Enums, booleans, ids, closed Literals.",
+    "ignored": "Provenance or volatile. Skip.",
+    "numeric": "Compare with the stated tolerance.",
+    "semantic": "Prose. Judge for meaning against the gold text, never for surface form."
+  },
+  "expected_topology": "Debate",
+  "registry_id": "uc2_1_ets1_scope_memo_annual",
+  "review_checklist": [
+    "Confirm the DA1 handoff scopes the FY2022 annual dual-method comparison boundary.",
+    "Confirm R2 preserves the dual-method reconciliation limitation.",
+    "Confirm CP1 describes reconciliation_record and dual_method_required.",
+    "Confirm TS1 selects Debate.",
+    "Confirm F1 reports per-entry method deltas, discrepancy flags, and materiality with citations."
+  ],
+  "schema_version": 2,
+  "supporting_agents": [
+    "R1",
+    "DA1",
+    "R2",
+    "D1",
+    "D2",
+    "CP1",
+    "TS1",
+    "D3",
+    "P2",
+    "P3",
+    "S1",
+    "F1",
+    "EX1",
+    "EX2"
+  ],
+  "topology_policy": {
+    "expected_topology": "Debate",
+    "on_divergence": {
+      "TS1.selected_topology_id": "counts_as_miss",
+      "note": "not_applicable is not ****: those agents never ran, so they were neither right nor wrong.",
+      "topology_scoped_checkpoints": "not_applicable"
+    }
+  }
+}

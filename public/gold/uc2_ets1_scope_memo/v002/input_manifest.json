@@ -1,0 +1,25 @@
+{
+  "created_at": "****",
+  "note": "Confidential source-file names, counts, hashes, and sizes are redacted.",
+  "real_data_files": [
+    {
+      "path": "****",
+      "sha256": "****",
+      "size_bytes": "****"
+    }
+  ],
+  "regulation_files": [
+    {
+      "filename": "CELEX_32003L0087_EN_TXT.pdf",
+      "matches": [
+        {
+          "path": "regulations/CELEX_32003L0087_EN_TXT.pdf",
+          "sha256": "b3941901e4fe1af3defcffa323c00a5c6f7f44c51c9ea5785c7a995c3bd68445",
+          "size_bytes": "****"
+        }
+      ],
+      "reference": "REG-1"
+    }
+  ],
+  "source_kind": "experiment"
+}

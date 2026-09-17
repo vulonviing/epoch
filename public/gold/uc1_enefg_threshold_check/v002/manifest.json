@@ -1,0 +1,65 @@
+{
+  "available_agents": [
+    "CP1",
+    "D1",
+    "D2",
+    "D3",
+    "DA1",
+    "EX1",
+    "EX2",
+    "F1",
+    "P1",
+    "R1",
+    "R2",
+    "TS1"
+  ],
+  "checkpoint_file_sha256": {
+    "cp1.json": "62311b909b87ae9dabcbe8a3a5c3ceaee5956918cea8d56002f85295fcfdfe3e",
+    "d2.json": "f874a2072c7f18171e7edc8e95704a353bda835d80c370f0ade6d15bfbcefb2e",
+    "da1.json": "67b4c0563ca5b801b3363862a40630926a1744c6510cd52e09cd363daf67648f",
+    "ex1.json": "33caf3397f247ea16cea8d8921af31a898ea0685a480c199665d7a9f39c9e307",
+    "ex2.json": "34f64c99c638e15b9d5d4606153e8cfad211235fbb5b29679bdfcffee078751e",
+    "f1.json": "5fd635cf80bb80387f7db97b1d0118926b890564529ae66d68a25fe8b118bbc9",
+    "p1.json": "8608f2ea3ebeecc0844c38fea3d38493c6c2dad88d4e18a50e5f6883af97b90b",
+    "r1.json": "8da07515e2eed5234fd3e8f6c6827eabe5da328afc75fc218f1a542c9cb4f3c4",
+    "r2.json": "ca564b24af2efba42717dcee49ed0cd35ea9a95b97a3a7de009c54df9d18486d",
+    "ts1.json": "2ea9640b66f78f9632c286396145bae97b9d802a20a2f0214a1079f84eed9d96"
+  },
+  "created_at": "****",
+  "current_registry_sha256": "7d131cfe059d0bcfe24035d404bd7a168d7cfddbc221d318b303c4866ec0ca26",
+  "expected_topology": "Direct",
+  "frozen_at": "****",
+  "git": {
+    "branch": "main",
+    "commit": "****",
+    "dirty": true
+  },
+  "lineage_consistent": true,
+  "missing_checkpoints": [],
+  "missing_supporting_agents": [],
+  "public_export": {
+    "collection_cardinality_redacted": true,
+    "data_derived_numbers_masked": true,
+    "geography_redacted": true,
+    "llm_prose_redacted": true,
+    "mask_value": "****",
+    "masked": true,
+    "metadata_identifiers_tokenized": true,
+    "payload_values_redacted": true,
+    "private_fingerprints_redacted": true,
+    "purpose": "disclosure_only",
+    "source_version": "v002"
+  },
+  "registry_drift": false,
+  "registry_id": "uc1_enefg_threshold_check",
+  "reviewer": "****",
+  "schema_version": 1,
+  "source_kind": "experiment",
+  "source_location": "****",
+  "source_registry_sha256": "7d131cfe059d0bcfe24035d404bd7a168d7cfddbc221d318b303c4866ec0ca26",
+  "source_run_ids": [
+    "run-01"
+  ],
+  "status": "frozen",
+  "version": "v002"
+}

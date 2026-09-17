@@ -1,0 +1,74 @@
+{
+  "_gold": {
+    "agent_id": "R2",
+    "agent_type": "llm",
+    "checkpoint": "R2",
+    "comparison_policy": "Boundary decisions, legal grounding, and limitations are semantic targets; requirement_type and approved_field_ids are exact.",
+    "human_gate": "G2",
+    "pipeline_order": 3,
+    "registry_id": "uc3_csrd_scope2_measure",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-010",
+    "source_payload_sha256": "aaff7c027c9555d2a0c6dcb7636ec927ac1c7ba47f2c73092ce90bf2cf8f6c01",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": false
+  },
+  "payload": {
+    "blocked_findings": [
+      {
+        "r1_finding_id": "****",
+        "reason": "****",
+        "related_field_ids": [
+          "****"
+        ]
+      }
+    ],
+    "excluded_findings": [
+      {
+        "r1_finding_id": "****",
+        "reason": "****",
+        "related_field_ids": [
+          "****"
+        ]
+      }
+    ],
+    "human_review": {
+      "blocked_acknowledged": [
+        "****"
+      ],
+      "decision": "****",
+      "excluded_acknowledged": [
+        "****"
+      ]
+    },
+    "in_scope_findings": [
+      {
+        "approved_field_ids": [
+          "****"
+        ],
+        "assessment_boundary": "****",
+        "citations": [
+          {
+            "evidence_excerpt": "****",
+            "page": "****",
+            "source_file": "****",
+            "source_ref": "****"
+          }
+        ],
+        "r1_finding_refs": [
+          "****"
+        ],
+        "r2_finding_id": "****",
+        "requirement_type": "****",
+        "statement": "****"
+      }
+    ],
+    "limitations": [
+      "****"
+    ],
+    "registry_id": "****",
+    "schema_version": "****",
+    "summary": "****"
+  }
+}

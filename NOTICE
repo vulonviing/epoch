@@ -1,0 +1,21 @@
+EPOCH
+Copyright 2026 Emrecan Ulu
+
+This product was developed as part of a Master's thesis, "Audit-Aware
+Topology Selection for LLM Agents," University of Konstanz, in an
+industrial context at Siemens AG (Environmental Protection Data Analysis,
+EHS EP DA).
+
+This repository does not contain any Siemens confidential data. All tabular
+data shipped here (`data/synthetic/`) is synthetically generated and does not
+describe any real Siemens site or facility. Selected official legal texts are
+included with source and reuse information under `regulations/`.
+
+Siemens Sustainability Statement extracts, EFRAG-derived corpus material,
+individual peer-review records, and raw evaluation runs are not redistributed.
+Their absence is deliberate and does not place those third-party materials
+under the Apache License.
+
+Project-authored code and documentation are licensed under the Apache License,
+Version 2.0. Third-party official legal texts retain their applicable source
+terms. See `LICENSE` and `regulations/SOURCE_MANIFEST.md`.

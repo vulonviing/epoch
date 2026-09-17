@@ -1,0 +1,70 @@
+{
+  "checkpoints": {
+    "CP1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "D2": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "DA1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "EX1": {
+      "decision": "approved",
+      "notes": "All 11 bullets web_verified against EUR-Lex/EC/DEHSt/EEA; strongest findings are **** challenges: the memo prices direct (Scope 1) ETS emissions using Scope 2 purchased-electricity figures, and the German surrender deadline moved from 30 April to 30 September starting the 2023 obligation, unreflected in the memos Art. 12(3) citation for its FY2022-FY2024 window.",
+      "source_available": true
+    },
+    "EX2": {
+      "decision": "approved",
+      "notes": "All 11 bullets web_verified against EUR-Lex/EC/EEA/DEHSt; reinforces the Scope 1 vs Scope 2 framing gap and correctly flags that the operative MRR/AVR implementing regulations, not the bare 2003 directive Annexes, govern monitoring completeness and category-based materiality.",
+      "source_available": true
+    },
+    "F1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "P2": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "P3": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "R1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "R2": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "S1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "TS1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    }
+  },
+  "frozen_at": "****",
+  "lineage_reviewed": true,
+  "overall_decision": "approved",
+  "registry_drift_resolved": true,
+  "reviewer": "****",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+name: public-release
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.13"]
+    env:
+      EPOCH_DATA_MODE: synthetic
+      EPOCH_LLM_BACKEND: opus5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -e '.[test]'
+      - run: pytest -q
+      - run: python scripts/verify_public_release.py --history
+      - run: python skills/system-check/check.py --static --json
+      - if: matrix.python-version == '3.11'
+        run: python -m build
+      - if: matrix.python-version == '3.11'
+        run: python scripts/verify_distribution.py dist/*.whl
+      - run: git diff --exit-code

@@ -1,0 +1,51 @@
+{
+  "_gold": {
+    "agent_id": "S1",
+    "agent_type": "llm",
+    "checkpoint": "S1",
+    "comparison_policy": "S1 reconciles P2 and P3's independent reads; its verdict fields are the binding Debate output judged against the gold's own reconciled conclusion, not against P2 or P3 individually.",
+    "human_gate": null,
+    "pipeline_order": 9,
+    "registry_id": "uc2_ets1_scope_memo",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-011",
+    "source_payload_sha256": "7a76da8bbffc9dbe547d52b0df7586ed9e0dd12cc1b1d114726ab6a1a9b7d93e",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": true
+  },
+  "payload": {
+    "carried_caveats": [
+      "****"
+    ],
+    "registry_id": "****",
+    "rows": [
+      {
+        "abs_delta": "****",
+        "carried_caveats": [
+          "****"
+        ],
+        "cdp_region": "****",
+        "citations": [
+          "****"
+        ],
+        "city": "****",
+        "country_name": "****",
+        "delta_interpretation": "****",
+        "discrepancy_flag": "****",
+        "location_id": "****",
+        "location_name": "****",
+        "materiality_verdict": "****",
+        "method_a": "****",
+        "method_a_grounding": "****",
+        "method_a_label": "****",
+        "method_b": "****",
+        "method_b_grounding": "****",
+        "method_b_label": "****",
+        "pct_diff": "****",
+        "reconciled_conclusion": "****",
+        "year": "****"
+      }
+    ]
+  }
+}

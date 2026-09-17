@@ -1,0 +1,99 @@
+{
+  "_source_path": "****",
+  "agent_id": "D1",
+  "approved_at": "****",
+  "artifact_id": "artifact-011",
+  "created_at": "****",
+  "input_refs": {
+    "da1": {
+      "artifact_id": "artifact-003",
+      "payload_sha256": "d87ebce97e199bd2f7459e40e84173be5e0c2dda68bc1c6eeffa3fedbff93369",
+      "run_id": "run-01"
+    },
+    "r2": {
+      "artifact_id": "artifact-009",
+      "payload_sha256": "ca567bf7f384ece4a72abd9db13f249479b18925edb0f2f2418e7ab361ee548c",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "data_request": {
+      "approved_field_ids": [
+        "****"
+      ],
+      "entity_grain": "****",
+      "filters": {
+        "country_code": "****"
+      },
+      "intent": "****",
+      "measures": [
+        "****"
+      ],
+      "quality_policy": "****",
+      "regulation_field_mappings": [],
+      "request_id": "****",
+      "source_domain": "****",
+      "source_domains": [
+        "****"
+      ],
+      "time_grain": "****",
+      "time_window": {
+        "end": "****",
+        "start": "****"
+      },
+      "validation": {
+        "errors": [],
+        "ok": "****",
+        "warnings": []
+      }
+    },
+    "summary": {
+      "effective_time_range": [
+        "****"
+      ],
+      "grain": "****",
+      "measures": [
+        "****"
+      ],
+      "quality_policy": "****",
+      "requested_time_range": [
+        "****"
+      ],
+      "source_domain": "****",
+      "tables": [
+        "****"
+      ],
+      "tables_detail": {
+        "energy": {
+          "column_count": "****",
+          "columns": [
+            "****"
+          ],
+          "quality_summary": {
+            "status": {
+              "Approved": "****"
+            }
+          },
+          "row_count": "****"
+        }
+      },
+      "time_range": [
+        "****"
+      ],
+      "time_window_clamped": "****",
+      "total_rows": "****",
+      "validation": {
+        "errors": [],
+        "ok": "****",
+        "warnings": []
+      }
+    }
+  },
+  "payload_sha256": "708a622983d5edefe4a76f4fabd015973c789a4d21358ca3b55922fe82d60d13",
+  "reason": "D1 data execution completed from approved handoff",
+  "registry_id": "uc1_enefg_threshold_check",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

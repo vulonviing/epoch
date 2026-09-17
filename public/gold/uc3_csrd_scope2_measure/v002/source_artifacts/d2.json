@@ -1,0 +1,37 @@
+{
+  "_source_path": "****",
+  "agent_id": "D2",
+  "approved_at": "****",
+  "artifact_id": "artifact-004",
+  "created_at": "****",
+  "input_refs": {
+    "d1": {
+      "artifact_id": "artifact-013",
+      "payload_sha256": "b455d388bdcdc48b3794b2e89b4e12303d747ae56a7d9a2f924ad6087516578d",
+      "run_id": "run-01"
+    },
+    "r2": {
+      "artifact_id": "artifact-010",
+      "payload_sha256": "aaff7c027c9555d2a0c6dcb7636ec927ac1c7ba47f2c73092ce90bf2cf8f6c01",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "assessable_claims": [
+      "****"
+    ],
+    "blocked_claims": [],
+    "evidence_completeness": "****",
+    "max_severity": "****",
+    "routing_recommendation": "****",
+    "summary": "****",
+    "verdict": "****"
+  },
+  "payload_sha256": "6734c23b2d84b6a69b186c3ba67e0e38516aec68cde77343a2272c63983afe71",
+  "reason": "D2 data-quality preflight completed from approved handoff",
+  "registry_id": "uc3_csrd_scope2_measure",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Real data must never enter this repository. These paths do not exist in
+# the public release; the entries stay as a hard backstop.
+data/real/
+
+# Runtime runs and agent-local shelves are local state. The public repository
+# publishes only curated, structure-only artifacts under public/gold/.
+experiments/*/
+src/epoch_switch/agents/**/registry_profiles/
+src/epoch_switch/agents/**/*_registry_profiles/
+
+# Third-party document corpora are local-only.  The tracked README files explain
+# how to supply them without redistributing source text.
+data/siemens_sustainability_2025/*
+!data/siemens_sustainability_2025/README.md
+regulations/esrs/*
+!regulations/esrs/README.md
+regulations/comparison_helpers/
+regulations/supporting_context/
+
+# Confidential or reviewer-identifying evaluation working material.
+evaluation/**/gold/real/
+evaluation/opus-*/real/
+evaluation/peer_review/_incoming/
+evaluation/peer_review/out/
+evaluation/peer_review/reviewed/
+evaluation/peer_review/reviews/
+evaluation/uc4_document_audit/audit_*/
+public/gold/uc4_esrs_2026_impact/v*/
+
+# Temp experiment outputs
+.tmp_*/

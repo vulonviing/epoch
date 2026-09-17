@@ -1,0 +1,70 @@
+{
+  "_source_path": "****",
+  "agent_id": "S1",
+  "approved_at": "****",
+  "artifact_id": "artifact-011",
+  "created_at": "****",
+  "input_refs": {
+    "d3": {
+      "artifact_id": "artifact-014",
+      "payload_sha256": "d50b8d17964ec61f656fc17d3473d4cac0e40da5cfb2b335a68144e2e72c3184",
+      "run_id": "run-01"
+    },
+    "p2": {
+      "artifact_id": "artifact-007",
+      "payload_sha256": "25f2e13581a4d2ed003d19e81dca05199f5f2fb633d9772725cc49baa2df59b1",
+      "run_id": "run-01"
+    },
+    "p3": {
+      "artifact_id": "artifact-008",
+      "payload_sha256": "25f2e13581a4d2ed003d19e81dca05199f5f2fb633d9772725cc49baa2df59b1",
+      "run_id": "run-01"
+    },
+    "r2": {
+      "artifact_id": "artifact-010",
+      "payload_sha256": "ca567bf7f384ece4a72abd9db13f249479b18925edb0f2f2418e7ab361ee548c",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "carried_caveats": [
+      "****"
+    ],
+    "registry_id": "****",
+    "rows": [
+      {
+        "abs_delta": "****",
+        "carried_caveats": [
+          "****"
+        ],
+        "cdp_region": "****",
+        "citations": [
+          "****"
+        ],
+        "city": "****",
+        "country_name": "****",
+        "delta_interpretation": "****",
+        "discrepancy_flag": "****",
+        "location_id": "****",
+        "location_name": "****",
+        "materiality_verdict": "****",
+        "method_a": "****",
+        "method_a_grounding": "****",
+        "method_a_label": "****",
+        "method_b": "****",
+        "method_b_grounding": "****",
+        "method_b_label": "****",
+        "pct_diff": "****",
+        "reconciled_conclusion": "****",
+        "year": "****"
+      }
+    ]
+  },
+  "payload_sha256": "7a76da8bbffc9dbe547d52b0df7586ed9e0dd12cc1b1d114726ab6a1a9b7d93e",
+  "reason": "S1 synthesis accepted",
+  "registry_id": "uc2_ets1_scope_memo",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

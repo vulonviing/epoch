@@ -1,0 +1,37 @@
+{
+  "_source_path": "****",
+  "agent_id": "D2",
+  "approved_at": "****",
+  "artifact_id": "artifact-002",
+  "created_at": "****",
+  "input_refs": {
+    "d1": {
+      "artifact_id": "artifact-013",
+      "payload_sha256": "526c577d2822ebf2d4c9888f981f73cc5cb94fdaa12303a93f2465c9d54e1c32",
+      "run_id": "run-01"
+    },
+    "r2": {
+      "artifact_id": "artifact-010",
+      "payload_sha256": "ca567bf7f384ece4a72abd9db13f249479b18925edb0f2f2418e7ab361ee548c",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "assessable_claims": [
+      "****"
+    ],
+    "blocked_claims": [],
+    "evidence_completeness": "****",
+    "max_severity": "****",
+    "routing_recommendation": "****",
+    "summary": "****",
+    "verdict": "****"
+  },
+  "payload_sha256": "6734c23b2d84b6a69b186c3ba67e0e38516aec68cde77343a2272c63983afe71",
+  "reason": "D2 data-quality preflight completed from approved handoff",
+  "registry_id": "uc2_1_ets1_scope_memo_annual",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

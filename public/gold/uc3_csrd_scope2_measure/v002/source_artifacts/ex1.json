@@ -1,0 +1,57 @@
+{
+  "_source_path": "****",
+  "agent_id": "EX1",
+  "approved_at": "****",
+  "artifact_id": "artifact-006",
+  "created_at": "****",
+  "input_refs": {
+    "da1": {
+      "artifact_id": "artifact-005",
+      "payload_sha256": "38517060b36dcad1e11c8803b1c348a912abf396164389314c7acbd4f6d1c980",
+      "run_id": "run-01"
+    },
+    "gate_payload": {
+      "artifact_id": null,
+      "payload_sha256": "****",
+      "state": "candidate"
+    },
+    "r1": {
+      "artifact_id": "artifact-009",
+      "payload_sha256": "5cba293f95927f09329cc6176b02e7ddbc25e2c065e30265295901aa6c76c193",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "bullets": [
+      {
+        "grounding": "****",
+        "point": "****",
+        "relevance": "****",
+        "sources": [
+          {
+            "institution": "****",
+            "published": "****",
+            "title": "****",
+            "url": "****"
+          }
+        ],
+        "stance": "****"
+      }
+    ],
+    "institutions_consulted": [
+      "****"
+    ],
+    "registry_id": "****",
+    "search_notes": [
+      "****"
+    ],
+    "stage_id": "****"
+  },
+  "payload_sha256": "1b728ec051aa0b0a996a64ee8f5a64b91c64ff4b808144464c499bb4395fe766",
+  "reason": "EX1 external commentary accepted",
+  "registry_id": "uc3_csrd_scope2_measure",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

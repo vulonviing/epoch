@@ -1,0 +1,72 @@
+{
+  "_source_path": "****",
+  "agent_id": "R1",
+  "approved_at": "****",
+  "artifact_id": "artifact-009",
+  "created_at": "****",
+  "input_refs": {
+    "registry_sha256": "d83b3359d3caa06d85ae17a4fe40d41838e5f745b94564638f4933b745e52b66"
+  },
+  "payload": {
+    "cache_signature": {
+      "loader_version": "****",
+      "model": "****",
+      "prompt_sha256": "****",
+      "r1_registry_input_sha256": "****",
+      "schema_version": "****",
+      "source_hashes": {
+        "CELEX_32022L2464_EN_TXT.pdf": "****"
+      }
+    },
+    "findings": [
+      {
+        "evidence_excerpt": "****",
+        "finding_id": "****",
+        "page": "****",
+        "requirement_type": "****",
+        "source_file": "****",
+        "source_ref": "****",
+        "statement": "****"
+      }
+    ],
+    "missing_regulatory_context": [
+      "****"
+    ],
+    "possible_fields": [
+      {
+        "description": "****",
+        "expected_grain": "****",
+        "expected_unit": null,
+        "field_id": "****",
+        "finding_refs": [
+          "****"
+        ],
+        "name": "****",
+        "priority": "****",
+        "reason": "****",
+        "role": "****"
+      }
+    ],
+    "selected_pages": [
+      {
+        "page": "****",
+        "reason": "****",
+        "source_file": "****",
+        "source_ref": "****"
+      }
+    ],
+    "source_hashes": {
+      "CELEX_32022L2464_EN_TXT.pdf": "****"
+    },
+    "stop_reason": null,
+    "summary": "****",
+    "verdict": "****"
+  },
+  "payload_sha256": "5cba293f95927f09329cc6176b02e7ddbc25e2c065e30265295901aa6c76c193",
+  "reason": "DA1 mapping scope approved by human",
+  "registry_id": "uc3_csrd_scope2_measure",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}
