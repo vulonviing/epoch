@@ -34,6 +34,39 @@ reviews, or source-bearing UC4 gold is included.
 See `NOTICE`, `evaluation/README.md`, and `public/gold/README.md` for the exact
 publication boundary.
 
+### Fresh history, not a filtered mirror
+
+This repository's Git history begins at its own initial commit. It was
+authored from scratch as a disclosure-safe export, not produced by filtering
+or truncating the private development repository's history. That private
+repository carries confidential Siemens data throughout its history and
+cannot be made public in any form, including its commit log. Any thesis
+statement that cites private-repository commit timestamps (for example,
+development-time corroboration for a specific use case) refers to history
+that is not published here and cannot be independently re-checked from this
+repository.
+
+### What this repository cannot independently re-verify
+
+Some thesis claims rest on records this repository deliberately excludes, for
+the same confidentiality reason as above:
+
+- **Raw run records.** Full per-agent input/output payloads for real-data
+  evaluation runs are not published, because the underlying case data is
+  confidential Siemens data. `public/gold/` ships masked, structure-only
+  derivatives instead; see `public/gold/README.md`.
+- **Individual peer-review responses.** The thesis quotes or summarizes
+  specific reviewer scores and comments; the underlying per-reviewer records
+  are not redistributed here, only anonymized aggregate results (see
+  `evaluation/README.md`, `NOTICE`).
+- **UC4 gold and source excerpts.** The Siemens Sustainability Statement and
+  EFRAG-derived corpus material are withheld, so UC4 results reported in the
+  thesis cannot be recomputed from this repository.
+
+These are disclosure limits, not corrections to the thesis: the underlying
+records exist and were reviewed before the thesis was written, but this
+repository is not the evidentiary record for them.
+
 ## Executable pipelines
 
 Tabular use cases:
