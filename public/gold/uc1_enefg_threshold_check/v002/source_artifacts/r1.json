@@ -1,0 +1,72 @@
+{
+  "_source_path": "****",
+  "agent_id": "R1",
+  "approved_at": "****",
+  "artifact_id": "artifact-008",
+  "created_at": "****",
+  "input_refs": {
+    "registry_sha256": "7d131cfe059d0bcfe24035d404bd7a168d7cfddbc221d318b303c4866ec0ca26"
+  },
+  "payload": {
+    "cache_signature": {
+      "loader_version": "****",
+      "model": "****",
+      "prompt_sha256": "****",
+      "r1_registry_input_sha256": "****",
+      "schema_version": "****",
+      "source_hashes": {
+        "EnEfG.pdf": "****"
+      }
+    },
+    "findings": [
+      {
+        "evidence_excerpt": "****",
+        "finding_id": "****",
+        "page": "****",
+        "requirement_type": "****",
+        "source_file": "****",
+        "source_ref": "****",
+        "statement": "****"
+      }
+    ],
+    "missing_regulatory_context": [
+      "****"
+    ],
+    "possible_fields": [
+      {
+        "description": "****",
+        "expected_grain": "****",
+        "expected_unit": null,
+        "field_id": "****",
+        "finding_refs": [
+          "****"
+        ],
+        "name": "****",
+        "priority": "****",
+        "reason": "****",
+        "role": "****"
+      }
+    ],
+    "selected_pages": [
+      {
+        "page": "****",
+        "reason": "****",
+        "source_file": "****",
+        "source_ref": "****"
+      }
+    ],
+    "source_hashes": {
+      "EnEfG.pdf": "****"
+    },
+    "stop_reason": null,
+    "summary": "****",
+    "verdict": "****"
+  },
+  "payload_sha256": "515d66ffc749239d7440660f34462044c36976761f42bcd6b939bbaaddad47ea",
+  "reason": "DA1 mapping scope approved by human",
+  "registry_id": "uc1_enefg_threshold_check",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

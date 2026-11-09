@@ -1,0 +1,49 @@
+{
+  "_gold": {
+    "agent_id": "F1",
+    "agent_type": "llm",
+    "checkpoint": "F1",
+    "comparison_policy": "Deterministic values and categorical alerts are exact; narrative, citations, and limitations are semantic.",
+    "human_gate": "G5",
+    "pipeline_order": 9,
+    "registry_id": "uc1_enefg_threshold_check",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-006",
+    "source_payload_sha256": "513c8907b6555697490e0ab04b70e948099a6c220797a961cd00232c0c90b5cc",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": false
+  },
+  "payload": {
+    "citations": [
+      "****"
+    ],
+    "headline": "****",
+    "limitations": [
+      "****"
+    ],
+    "output_form": "****",
+    "portfolio_summary": {
+      "n_compliant": "****",
+      "n_near_breach": "****",
+      "n_obligated": "****",
+      "n_sites": "****",
+      "narrative": "****"
+    },
+    "registry_id": "****",
+    "site_alerts": [
+      {
+        "alert": "****",
+        "gap": "****",
+        "headline": "****",
+        "location_display": "****",
+        "location_id": "****",
+        "location_name": "****",
+        "near_breach": "****",
+        "rule_id": "****",
+        "rule_label": "****",
+        "status": "****"
+      }
+    ]
+  }
+}

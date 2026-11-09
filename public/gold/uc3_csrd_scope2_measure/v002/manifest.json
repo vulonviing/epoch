@@ -1,0 +1,67 @@
+{
+  "available_agents": [
+    "C1",
+    "C2",
+    "CP1",
+    "D1",
+    "D2",
+    "D3",
+    "DA1",
+    "EX1",
+    "EX2",
+    "F1",
+    "R1",
+    "R2",
+    "TS1"
+  ],
+  "checkpoint_file_sha256": {
+    "c1.json": "55cce20561c8f35634eb0001d25569f2dcc707407a9b46d6b56a5de1fa62b41c",
+    "c2.json": "5ba6e23a7735aee2f07bddcdae04369d05e6332b52b1e10dfcc1e4af912325ef",
+    "cp1.json": "c8fbfcc9265299a536c12a291b2ec24575e42458723feea362ce5d48db836f52",
+    "d2.json": "e882f8030d5e255e6a1ae08138a5ad25f24f8edfbb4a3994765cfeb859840da0",
+    "da1.json": "72f903fe6fc05a66b50bcabcd2bd0df864b8f571aa05d2929d4433b9a4852326",
+    "ex1.json": "96ceeb0855742f09e030e389604fde4beee05df0038674871257ba3c95b33cb5",
+    "ex2.json": "0f9231bb5114b9ecad0758cd4c743da5affcac43ceac4c182ebabb7a342fb725",
+    "f1.json": "4bab3b90e97eff8450e688eef73a977aa4cc676edb3b4b69db350af172849978",
+    "r1.json": "0146fe9d6b82cc30344ae11622dd6f4566f3aa0367ad061c804ffd72443e6ca2",
+    "r2.json": "5646b58870e39ef89fd22e05581a7a7df304dcb865549e744a268aacbb7bc49a",
+    "ts1.json": "71680f6d077fbde047266faa358154ff5a20a3ff1cea4837a4ca9259ddc71943"
+  },
+  "created_at": "****",
+  "current_registry_sha256": "d83b3359d3caa06d85ae17a4fe40d41838e5f745b94564638f4933b745e52b66",
+  "expected_topology": "Coalition",
+  "frozen_at": "****",
+  "git": {
+    "branch": "main",
+    "commit": "****",
+    "dirty": true
+  },
+  "lineage_consistent": true,
+  "missing_checkpoints": [],
+  "missing_supporting_agents": [],
+  "public_export": {
+    "collection_cardinality_redacted": true,
+    "data_derived_numbers_masked": true,
+    "geography_redacted": true,
+    "llm_prose_redacted": true,
+    "mask_value": "****",
+    "masked": true,
+    "metadata_identifiers_tokenized": true,
+    "payload_values_redacted": true,
+    "private_fingerprints_redacted": true,
+    "purpose": "disclosure_only",
+    "source_version": "v002"
+  },
+  "registry_drift": false,
+  "registry_id": "uc3_csrd_scope2_measure",
+  "reviewer": "****",
+  "schema_version": 1,
+  "source_kind": "experiment",
+  "source_location": "****",
+  "source_registry_sha256": "d83b3359d3caa06d85ae17a4fe40d41838e5f745b94564638f4933b745e52b66",
+  "source_run_ids": [
+    "run-01"
+  ],
+  "status": "frozen",
+  "version": "v002"
+}

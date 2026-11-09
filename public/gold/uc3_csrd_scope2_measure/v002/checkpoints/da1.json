@@ -1,0 +1,188 @@
+{
+  "_gold": {
+    "agent_id": "DA1",
+    "agent_type": "llm",
+    "checkpoint": "DA1",
+    "comparison_policy": "Human mapping decisions and resulting handoff are canonical; timestamps and catalog_snapshot are provenance only.",
+    "human_gate": "G1",
+    "pipeline_order": 2,
+    "registry_id": "uc3_csrd_scope2_measure",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-005",
+    "source_payload_sha256": "38517060b36dcad1e11c8803b1c348a912abf396164389314c7acbd4f6d1c980",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": false
+  },
+  "payload": {
+    "approved_mapping_scope": {
+      "approved_field_ids": [
+        "****"
+      ],
+      "approved_mappings": [
+        {
+          "alternative_targets": [],
+          "catalog_targets": [
+            {
+              "aggregation": "****",
+              "filters": [
+                {
+                  "column": "****",
+                  "op": "****",
+                  "value": [
+                    "****"
+                  ]
+                }
+              ],
+              "kind": "****",
+              "name": "****",
+              "quality_flags": [],
+              "source_column": "****",
+              "source_table": "****"
+            }
+          ],
+          "field_id": "****",
+          "field_name": "****",
+          "human_decision": "****",
+          "priority": "****",
+          "reason": "****",
+          "role": "****",
+          "status": "****"
+        }
+      ],
+      "handoff_data_request": {
+        "approved_field_ids": [
+          "****"
+        ],
+        "entity_grain": "****",
+        "filters": {
+          "bu_rc_group": [
+            "****"
+          ],
+          "cdp_region": [
+            "****"
+          ],
+          "emea": [
+            "****"
+          ],
+          "scope": [
+            "****"
+          ]
+        },
+        "intent": "****",
+        "measures": [
+          "****"
+        ],
+        "quality_policy": "****",
+        "request_id": "****",
+        "source_domain": "****",
+        "time_grain": "****",
+        "time_window": {
+          "end": "****",
+          "start": "****"
+        }
+      },
+      "human_decisions": [
+        {
+          "catalog_target": null,
+          "decision": "****",
+          "field_id": "****",
+          "field_name": "****",
+          "priority": "****"
+        }
+      ],
+      "registry_id": "****",
+      "schema_version": "****"
+    },
+    "handoff_data_request": {
+      "approved_field_ids": [
+        "****"
+      ],
+      "entity_grain": "****",
+      "filters": {
+        "bu_rc_group": [
+          "****"
+        ],
+        "cdp_region": [
+          "****"
+        ],
+        "emea": [
+          "****"
+        ],
+        "scope": [
+          "****"
+        ]
+      },
+      "intent": "****",
+      "measures": [
+        "****"
+      ],
+      "quality_policy": "****",
+      "request_id": "****",
+      "source_domain": "****",
+      "time_grain": "****",
+      "time_window": {
+        "end": "****",
+        "start": "****"
+      }
+    },
+    "human_decisions": [
+      {
+        "catalog_target": null,
+        "decision": "****",
+        "field_id": "****",
+        "field_name": "****",
+        "priority": "****"
+      }
+    ],
+    "mapping_report": {
+      "field_mappings": [
+        {
+          "alternative_targets": [],
+          "catalog_targets": [],
+          "field_id": "****",
+          "field_name": "****",
+          "priority": "****",
+          "reason": "****",
+          "role": "****",
+          "status": "****"
+        }
+      ],
+      "notes": [
+        "****"
+      ],
+      "suggested_request": {
+        "entity_grain": "****",
+        "filters": {
+          "bu_rc_group": [
+            "****"
+          ],
+          "cdp_region": [
+            "****"
+          ],
+          "scope": [
+            "****"
+          ]
+        },
+        "measures": [
+          "****"
+        ],
+        "quality_policy": "****",
+        "source_domain": "****",
+        "time_grain": "****",
+        "time_window": {
+          "end": "****",
+          "start": "****"
+        }
+      },
+      "summary": "****",
+      "validation": {
+        "errors": [],
+        "ok": "****",
+        "warnings": [
+          "****"
+        ]
+      }
+    }
+  }
+}

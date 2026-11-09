@@ -1,0 +1,30 @@
+{
+  "_gold": {
+    "agent_id": "C2",
+    "agent_type": "llm",
+    "checkpoint": "C2",
+    "comparison_policy": "C2 is the Coalition synthesizer combining C1's divisional subtotals into the portfolio total; portfolio_total_t must equal deterministic_portfolio_total_t (data-derived, **** residual), thin_data_divisions is data-derived from C1's data_volume_status, readiness_assessment is semantic.",
+    "human_gate": null,
+    "pipeline_order": 9,
+    "registry_id": "uc3_csrd_scope2_measure",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-002",
+    "source_payload_sha256": "00b2951d9562a859e8585fee91718dda8cd539aa3854fad6a338509a09720a5a",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": true
+  },
+  "payload": {
+    "carried_caveats": [
+      "****"
+    ],
+    "data_volume_coverage_note": "****",
+    "deterministic_portfolio_total_t": "****",
+    "portfolio_total_t": "****",
+    "readiness_assessment": "****",
+    "registry_id": "****",
+    "thin_data_divisions": [
+      "****"
+    ]
+  }
+}

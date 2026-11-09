@@ -1,0 +1,59 @@
+{
+  "_source_path": "****",
+  "agent_id": "P2",
+  "approved_at": "****",
+  "artifact_id": "artifact-007",
+  "created_at": "****",
+  "input_refs": {
+    "d3": {
+      "artifact_id": "artifact-014",
+      "payload_sha256": "d50b8d17964ec61f656fc17d3473d4cac0e40da5cfb2b335a68144e2e72c3184",
+      "run_id": "run-01"
+    },
+    "r2": {
+      "artifact_id": "artifact-010",
+      "payload_sha256": "ca567bf7f384ece4a72abd9db13f249479b18925edb0f2f2418e7ab361ee548c",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "registry_id": "****",
+    "rows": [
+      {
+        "abs_delta": "****",
+        "address": "****",
+        "article_grounding": "****",
+        "carried_caveats": [
+          "****"
+        ],
+        "cdp_region": "****",
+        "city": "****",
+        "country": "****",
+        "country_code": "****",
+        "country_name": "****",
+        "defensibility": "****",
+        "discrepancy_flag": "****",
+        "interpretation": "****",
+        "latitude": "****",
+        "location_id": "****",
+        "location_name": "****",
+        "longitude": "****",
+        "method_a": "****",
+        "method_b": "****",
+        "method_column": "****",
+        "method_figure": "****",
+        "method_label": "****",
+        "pct_diff": "****",
+        "year": "****",
+        "zip_code": "****"
+      }
+    ]
+  },
+  "payload_sha256": "25f2e13581a4d2ed003d19e81dca05199f5f2fb633d9772725cc49baa2df59b1",
+  "reason": "P2 energy-method interpretation accepted",
+  "registry_id": "uc2_ets1_scope_memo",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

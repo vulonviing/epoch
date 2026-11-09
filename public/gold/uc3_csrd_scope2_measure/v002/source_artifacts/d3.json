@@ -1,0 +1,59 @@
+{
+  "_source_path": "****",
+  "agent_id": "D3",
+  "approved_at": "****",
+  "artifact_id": "artifact-012",
+  "created_at": "****",
+  "input_refs": {
+    "d1": {
+      "artifact_id": "artifact-013",
+      "payload_sha256": "b455d388bdcdc48b3794b2e89b4e12303d747ae56a7d9a2f924ad6087516578d",
+      "run_id": "run-01"
+    },
+    "da1": {
+      "artifact_id": "artifact-005",
+      "payload_sha256": "38517060b36dcad1e11c8803b1c348a912abf396164389314c7acbd4f6d1c980",
+      "run_id": "run-01"
+    },
+    "ts": {
+      "artifact_id": "artifact-011",
+      "payload_sha256": "84a2cbb73c2008cc4be36a90f630478fe10443f3fc9577813e923ffd30fec60e",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "deterministic_summary": {
+      "division_count": "****",
+      "n_entries": "****",
+      "n_sites": "****",
+      "portfolio_total_t": "****"
+    },
+    "division_count": "****",
+    "group_by_column": "****",
+    "handoff_column": [
+      "****"
+    ],
+    "kind": "****",
+    "measure_column": "****",
+    "portfolio_total_t": "****",
+    "registry_id": "****",
+    "rows": [
+      {
+        "division": "****",
+        "n_rows": "****",
+        "n_sites": "****",
+        "subtotal_t": "****",
+        "year": "****"
+      }
+    ],
+    "site_count": "****",
+    "source_domain": "****"
+  },
+  "payload_sha256": "41c2325028e9e502a5e082e5f7f900fb138a1e9801280fb837779522ff7bcb58",
+  "reason": "D3 site compliance computation completed",
+  "registry_id": "uc3_csrd_scope2_measure",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

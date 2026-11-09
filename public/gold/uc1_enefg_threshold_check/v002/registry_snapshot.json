@@ -1,0 +1,59 @@
+{
+  "assurance_profile": {
+    "dual_method_required": "****",
+    "envelope_assurance_level": "****",
+    "human_signoff_required": "****",
+    "law_reference_required": "****",
+    "level": "****"
+  },
+  "computation_spec": {
+    "group_by_column": "****",
+    "kind": "****",
+    "measure_column": "****",
+    "method_a_column": "****",
+    "method_a_label": "****",
+    "method_b_column": "****",
+    "method_b_label": "****",
+    "source_domain": "****",
+    "tolerance": "****"
+  },
+  "document_sources": null,
+  "expected_output": "****",
+  "expected_topology": "****",
+  "id": "****",
+  "natural_request": "****",
+  "output_profile": {
+    "description": "****",
+    "form": "****",
+    "output_type": "****"
+  },
+  "pipeline_family": "****",
+  "reduction_target": null,
+  "regulation_refs": [
+    "****"
+  ],
+  "regulation_sources": {
+    "REG-2": "****"
+  },
+  "site_filter": {
+    "country": "****"
+  },
+  "threshold_parameters": {
+    "enefg_16": {
+      "aggregation": "****",
+      "column": "****",
+      "near_breach_ratio": "****",
+      "value": "****"
+    },
+    "enefg_8": {
+      "aggregation": "****",
+      "column": "****",
+      "near_breach_ratio": "****",
+      "value": "****"
+    }
+  },
+  "time_grain": "****",
+  "time_window": [
+    "****"
+  ]
+}

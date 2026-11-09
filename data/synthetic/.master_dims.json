@@ -1,0 +1,802 @@
+[
+  {
+    "location_id": 1,
+    "location_name": "Synthetic Site 001",
+    "country": "DE",
+    "city": "Leipzig",
+    "bu_rc_id": 3001,
+    "bu_rc_name": "SI_D_DI",
+    "bu_rc_group": "DI",
+    "active": true
+  },
+  {
+    "location_id": 2,
+    "location_name": "Synthetic Site 002",
+    "country": "BE",
+    "city": "Ghent",
+    "bu_rc_id": 3012,
+    "bu_rc_name": "SI_D_PM",
+    "bu_rc_group": "PM",
+    "active": true
+  },
+  {
+    "location_id": 3,
+    "location_name": "Synthetic Site 003",
+    "country": "FR",
+    "city": "Bordeaux",
+    "bu_rc_id": 3010,
+    "bu_rc_name": "SI_D_IN",
+    "bu_rc_group": "IN",
+    "active": true
+  },
+  {
+    "location_id": 4,
+    "location_name": "Synthetic Site 004",
+    "country": "BR",
+    "city": "Curitiba",
+    "bu_rc_id": 3011,
+    "bu_rc_name": "SI_D_OP",
+    "bu_rc_group": "OP",
+    "active": true
+  },
+  {
+    "location_id": 5,
+    "location_name": "Synthetic Site 005",
+    "country": "AU",
+    "city": "Melbourne",
+    "bu_rc_id": 3012,
+    "bu_rc_name": "SI_D_PM",
+    "bu_rc_group": "PM",
+    "active": true
+  },
+  {
+    "location_id": 6,
+    "location_name": "Synthetic Site 006",
+    "country": "CN",
+    "city": "Shenzhen",
+    "bu_rc_id": 3007,
+    "bu_rc_name": "SI_D_SW",
+    "bu_rc_group": "SW",
+    "active": true
+  },
+  {
+    "location_id": 7,
+    "location_name": "Synthetic Site 007",
+    "country": "DE",
+    "city": "Stuttgart",
+    "bu_rc_id": 3009,
+    "bu_rc_name": "SI_D_EV",
+    "bu_rc_group": "EV",
+    "active": true
+  },
+  {
+    "location_id": 8,
+    "location_name": "Synthetic Site 008",
+    "country": "BR",
+    "city": "São Paulo",
+    "bu_rc_id": 3003,
+    "bu_rc_name": "SI_D_FS",
+    "bu_rc_group": "FS",
+    "active": true
+  },
+  {
+    "location_id": 9,
+    "location_name": "Synthetic Site 009",
+    "country": "RO",
+    "city": "Bucharest",
+    "bu_rc_id": 3002,
+    "bu_rc_name": "SI_D_ED",
+    "bu_rc_group": "ED",
+    "active": true
+  },
+  {
+    "location_id": 10,
+    "location_name": "Synthetic Site 010",
+    "country": "AT",
+    "city": "Graz",
+    "bu_rc_id": 3011,
+    "bu_rc_name": "SI_D_OP",
+    "bu_rc_group": "OP",
+    "active": true
+  },
+  {
+    "location_id": 11,
+    "location_name": "Synthetic Site 011",
+    "country": "DK",
+    "city": "Aarhus",
+    "bu_rc_id": 3008,
+    "bu_rc_name": "SI_D_TI",
+    "bu_rc_group": "TI",
+    "active": true
+  },
+  {
+    "location_id": 12,
+    "location_name": "Synthetic Site 012",
+    "country": "IT",
+    "city": "Bologna",
+    "bu_rc_id": 3009,
+    "bu_rc_name": "SI_D_EV",
+    "bu_rc_group": "EV",
+    "active": true
+  },
+  {
+    "location_id": 13,
+    "location_name": "Synthetic Site 013",
+    "country": "IN",
+    "city": "Pune",
+    "bu_rc_id": 3012,
+    "bu_rc_name": "SI_D_PM",
+    "bu_rc_group": "PM",
+    "active": true
+  },
+  {
+    "location_id": 14,
+    "location_name": "Synthetic Site 014",
+    "country": "CN",
+    "city": "Shenzhen",
+    "bu_rc_id": 3010,
+    "bu_rc_name": "SI_D_IN",
+    "bu_rc_group": "IN",
+    "active": false
+  },
+  {
+    "location_id": 15,
+    "location_name": "Synthetic Site 015",
+    "country": "DK",
+    "city": "Aarhus",
+    "bu_rc_id": 3009,
+    "bu_rc_name": "SI_D_EV",
+    "bu_rc_group": "EV",
+    "active": true
+  },
+  {
+    "location_id": 16,
+    "location_name": "Synthetic Site 016",
+    "country": "AT",
+    "city": "Vienna",
+    "bu_rc_id": 3009,
+    "bu_rc_name": "SI_D_EV",
+    "bu_rc_group": "EV",
+    "active": true
+  },
+  {
+    "location_id": 17,
+    "location_name": "Synthetic Site 017",
+    "country": "TR",
+    "city": "Izmir",
+    "bu_rc_id": 3005,
+    "bu_rc_name": "SI_D_MO",
+    "bu_rc_group": "MO",
+    "active": true
+  },
+  {
+    "location_id": 18,
+    "location_name": "Synthetic Site 018",
+    "country": "CA",
+    "city": "Montreal",
+    "bu_rc_id": 3001,
+    "bu_rc_name": "SI_D_DI",
+    "bu_rc_group": "DI",
+    "active": true
+  },
+  {
+    "location_id": 19,
+    "location_name": "Synthetic Site 019",
+    "country": "FI",
+    "city": "Tampere",
+    "bu_rc_id": 3007,
+    "bu_rc_name": "SI_D_SW",
+    "bu_rc_group": "SW",
+    "active": true
+  },
+  {
+    "location_id": 20,
+    "location_name": "Synthetic Site 020",
+    "country": "FR",
+    "city": "Strasbourg",
+    "bu_rc_id": 3004,
+    "bu_rc_name": "SI_D_HC",
+    "bu_rc_group": "HC",
+    "active": true
+  },
+  {
+    "location_id": 21,
+    "location_name": "Synthetic Site 021",
+    "country": "AU",
+    "city": "Melbourne",
+    "bu_rc_id": 3007,
+    "bu_rc_name": "SI_D_SW",
+    "bu_rc_group": "SW",
+    "active": true
+  },
+  {
+    "location_id": 22,
+    "location_name": "Synthetic Site 022",
+    "country": "FR",
+    "city": "Strasbourg",
+    "bu_rc_id": 3013,
+    "bu_rc_name": "SI_D_RE",
+    "bu_rc_group": "RE",
+    "active": true
+  },
+  {
+    "location_id": 23,
+    "location_name": "Synthetic Site 023",
+    "country": "SE",
+    "city": "Stockholm",
+    "bu_rc_id": 3004,
+    "bu_rc_name": "SI_D_HC",
+    "bu_rc_group": "HC",
+    "active": true
+  },
+  {
+    "location_id": 24,
+    "location_name": "Synthetic Site 024",
+    "country": "ES",
+    "city": "Seville",
+    "bu_rc_id": 3001,
+    "bu_rc_name": "SI_D_DI",
+    "bu_rc_group": "DI",
+    "active": false
+  },
+  {
+    "location_id": 25,
+    "location_name": "Synthetic Site 025",
+    "country": "US",
+    "city": "Boston",
+    "bu_rc_id": 3005,
+    "bu_rc_name": "SI_D_MO",
+    "bu_rc_group": "MO",
+    "active": true
+  },
+  {
+    "location_id": 26,
+    "location_name": "Synthetic Site 026",
+    "country": "AT",
+    "city": "Salzburg",
+    "bu_rc_id": 3005,
+    "bu_rc_name": "SI_D_MO",
+    "bu_rc_group": "MO",
+    "active": true
+  },
+  {
+    "location_id": 27,
+    "location_name": "Synthetic Site 027",
+    "country": "AT",
+    "city": "Graz",
+    "bu_rc_id": 3010,
+    "bu_rc_name": "SI_D_IN",
+    "bu_rc_group": "IN",
+    "active": true
+  },
+  {
+    "location_id": 28,
+    "location_name": "Synthetic Site 028",
+    "country": "DE",
+    "city": "Munich",
+    "bu_rc_id": 3009,
+    "bu_rc_name": "SI_D_EV",
+    "bu_rc_group": "EV",
+    "active": true
+  },
+  {
+    "location_id": 29,
+    "location_name": "Synthetic Site 029",
+    "country": "IN",
+    "city": "Chennai",
+    "bu_rc_id": 3012,
+    "bu_rc_name": "SI_D_PM",
+    "bu_rc_group": "PM",
+    "active": true
+  },
+  {
+    "location_id": 30,
+    "location_name": "Synthetic Site 030",
+    "country": "ES",
+    "city": "Seville",
+    "bu_rc_id": 3010,
+    "bu_rc_name": "SI_D_IN",
+    "bu_rc_group": "IN",
+    "active": true
+  },
+  {
+    "location_id": 31,
+    "location_name": "Synthetic Site 031",
+    "country": "DE",
+    "city": "Nuremberg",
+    "bu_rc_id": 3007,
+    "bu_rc_name": "SI_D_SW",
+    "bu_rc_group": "SW",
+    "active": true
+  },
+  {
+    "location_id": 32,
+    "location_name": "Synthetic Site 032",
+    "country": "PL",
+    "city": "Krakow",
+    "bu_rc_id": 3013,
+    "bu_rc_name": "SI_D_RE",
+    "bu_rc_group": "RE",
+    "active": true
+  },
+  {
+    "location_id": 33,
+    "location_name": "Synthetic Site 033",
+    "country": "ZA",
+    "city": "Johannesburg",
+    "bu_rc_id": 3003,
+    "bu_rc_name": "SI_D_FS",
+    "bu_rc_group": "FS",
+    "active": true
+  },
+  {
+    "location_id": 34,
+    "location_name": "Synthetic Site 034",
+    "country": "GB",
+    "city": "Manchester",
+    "bu_rc_id": 3001,
+    "bu_rc_name": "SI_D_DI",
+    "bu_rc_group": "DI",
+    "active": true
+  },
+  {
+    "location_id": 35,
+    "location_name": "Synthetic Site 035",
+    "country": "PT",
+    "city": "Lisbon",
+    "bu_rc_id": 3002,
+    "bu_rc_name": "SI_D_ED",
+    "bu_rc_group": "ED",
+    "active": true
+  },
+  {
+    "location_id": 36,
+    "location_name": "Synthetic Site 036",
+    "country": "DE",
+    "city": "Dresden",
+    "bu_rc_id": 3011,
+    "bu_rc_name": "SI_D_OP",
+    "bu_rc_group": "OP",
+    "active": true
+  },
+  {
+    "location_id": 37,
+    "location_name": "Synthetic Site 037",
+    "country": "FR",
+    "city": "Bordeaux",
+    "bu_rc_id": 3007,
+    "bu_rc_name": "SI_D_SW",
+    "bu_rc_group": "SW",
+    "active": true
+  },
+  {
+    "location_id": 38,
+    "location_name": "Synthetic Site 038",
+    "country": "DE",
+    "city": "Dresden",
+    "bu_rc_id": 3003,
+    "bu_rc_name": "SI_D_FS",
+    "bu_rc_group": "FS",
+    "active": true
+  },
+  {
+    "location_id": 39,
+    "location_name": "Synthetic Site 039",
+    "country": "FR",
+    "city": "Strasbourg",
+    "bu_rc_id": 3008,
+    "bu_rc_name": "SI_D_TI",
+    "bu_rc_group": "TI",
+    "active": true
+  },
+  {
+    "location_id": 40,
+    "location_name": "Synthetic Site 040",
+    "country": "US",
+    "city": "Boston",
+    "bu_rc_id": 3003,
+    "bu_rc_name": "SI_D_FS",
+    "bu_rc_group": "FS",
+    "active": true
+  },
+  {
+    "location_id": 41,
+    "location_name": "Synthetic Site 041",
+    "country": "NL",
+    "city": "Rotterdam",
+    "bu_rc_id": 3011,
+    "bu_rc_name": "SI_D_OP",
+    "bu_rc_group": "OP",
+    "active": true
+  },
+  {
+    "location_id": 42,
+    "location_name": "Synthetic Site 042",
+    "country": "TR",
+    "city": "Ankara",
+    "bu_rc_id": 3007,
+    "bu_rc_name": "SI_D_SW",
+    "bu_rc_group": "SW",
+    "active": true
+  },
+  {
+    "location_id": 43,
+    "location_name": "Synthetic Site 043",
+    "country": "SE",
+    "city": "Stockholm",
+    "bu_rc_id": 3006,
+    "bu_rc_name": "SI_D_SI",
+    "bu_rc_group": "SI",
+    "active": true
+  },
+  {
+    "location_id": 44,
+    "location_name": "Synthetic Site 044",
+    "country": "GB",
+    "city": "Manchester",
+    "bu_rc_id": 3005,
+    "bu_rc_name": "SI_D_MO",
+    "bu_rc_group": "MO",
+    "active": true
+  },
+  {
+    "location_id": 45,
+    "location_name": "Synthetic Site 045",
+    "country": "ZA",
+    "city": "Cape Town",
+    "bu_rc_id": 3010,
+    "bu_rc_name": "SI_D_IN",
+    "bu_rc_group": "IN",
+    "active": true
+  },
+  {
+    "location_id": 46,
+    "location_name": "Synthetic Site 046",
+    "country": "PT",
+    "city": "Porto",
+    "bu_rc_id": 3006,
+    "bu_rc_name": "SI_D_SI",
+    "bu_rc_group": "SI",
+    "active": true
+  },
+  {
+    "location_id": 47,
+    "location_name": "Synthetic Site 047",
+    "country": "NO",
+    "city": "Trondheim",
+    "bu_rc_id": 3002,
+    "bu_rc_name": "SI_D_ED",
+    "bu_rc_group": "ED",
+    "active": true
+  },
+  {
+    "location_id": 48,
+    "location_name": "Synthetic Site 048",
+    "country": "NL",
+    "city": "Rotterdam",
+    "bu_rc_id": 3002,
+    "bu_rc_name": "SI_D_ED",
+    "bu_rc_group": "ED",
+    "active": true
+  },
+  {
+    "location_id": 49,
+    "location_name": "Synthetic Site 049",
+    "country": "NO",
+    "city": "Bergen",
+    "bu_rc_id": 3015,
+    "bu_rc_name": "SI_D_TR",
+    "bu_rc_group": "TR",
+    "active": true
+  },
+  {
+    "location_id": 50,
+    "location_name": "Synthetic Site 050",
+    "country": "CZ",
+    "city": "Brno",
+    "bu_rc_id": 3014,
+    "bu_rc_name": "SI_D_SS",
+    "bu_rc_group": "SS",
+    "active": true
+  },
+  {
+    "location_id": 51,
+    "location_name": "Synthetic Site 051",
+    "country": "CA",
+    "city": "Montreal",
+    "bu_rc_id": 3011,
+    "bu_rc_name": "SI_D_OP",
+    "bu_rc_group": "OP",
+    "active": true
+  },
+  {
+    "location_id": 52,
+    "location_name": "Synthetic Site 052",
+    "country": "SG",
+    "city": "Singapore",
+    "bu_rc_id": 3007,
+    "bu_rc_name": "SI_D_SW",
+    "bu_rc_group": "SW",
+    "active": true
+  },
+  {
+    "location_id": 53,
+    "location_name": "Synthetic Site 053",
+    "country": "DE",
+    "city": "Hamburg",
+    "bu_rc_id": 3012,
+    "bu_rc_name": "SI_D_PM",
+    "bu_rc_group": "PM",
+    "active": true
+  },
+  {
+    "location_id": 54,
+    "location_name": "Synthetic Site 054",
+    "country": "DE",
+    "city": "Erlangen",
+    "bu_rc_id": 3004,
+    "bu_rc_name": "SI_D_HC",
+    "bu_rc_group": "HC",
+    "active": true
+  },
+  {
+    "location_id": 55,
+    "location_name": "Synthetic Site 055",
+    "country": "SG",
+    "city": "Singapore",
+    "bu_rc_id": 3012,
+    "bu_rc_name": "SI_D_PM",
+    "bu_rc_group": "PM",
+    "active": true
+  },
+  {
+    "location_id": 56,
+    "location_name": "Synthetic Site 056",
+    "country": "IT",
+    "city": "Rome",
+    "bu_rc_id": 3011,
+    "bu_rc_name": "SI_D_OP",
+    "bu_rc_group": "OP",
+    "active": true
+  },
+  {
+    "location_id": 57,
+    "location_name": "Synthetic Site 057",
+    "country": "AT",
+    "city": "Salzburg",
+    "bu_rc_id": 3007,
+    "bu_rc_name": "SI_D_SW",
+    "bu_rc_group": "SW",
+    "active": true
+  },
+  {
+    "location_id": 58,
+    "location_name": "Synthetic Site 058",
+    "country": "IT",
+    "city": "Turin",
+    "bu_rc_id": 3005,
+    "bu_rc_name": "SI_D_MO",
+    "bu_rc_group": "MO",
+    "active": true
+  },
+  {
+    "location_id": 59,
+    "location_name": "Synthetic Site 059",
+    "country": "HU",
+    "city": "Budapest",
+    "bu_rc_id": 3002,
+    "bu_rc_name": "SI_D_ED",
+    "bu_rc_group": "ED",
+    "active": true
+  },
+  {
+    "location_id": 60,
+    "location_name": "Synthetic Site 060",
+    "country": "FI",
+    "city": "Tampere",
+    "bu_rc_id": 3014,
+    "bu_rc_name": "SI_D_SS",
+    "bu_rc_group": "SS",
+    "active": true
+  },
+  {
+    "location_id": 61,
+    "location_name": "Synthetic Site 061",
+    "country": "CH",
+    "city": "Zurich",
+    "bu_rc_id": 3007,
+    "bu_rc_name": "SI_D_SW",
+    "bu_rc_group": "SW",
+    "active": true
+  },
+  {
+    "location_id": 62,
+    "location_name": "Synthetic Site 062",
+    "country": "CH",
+    "city": "Bern",
+    "bu_rc_id": 3004,
+    "bu_rc_name": "SI_D_HC",
+    "bu_rc_group": "HC",
+    "active": false
+  },
+  {
+    "location_id": 63,
+    "location_name": "Synthetic Site 063",
+    "country": "CH",
+    "city": "Bern",
+    "bu_rc_id": 3005,
+    "bu_rc_name": "SI_D_MO",
+    "bu_rc_group": "MO",
+    "active": true
+  },
+  {
+    "location_id": 64,
+    "location_name": "Synthetic Site 064",
+    "country": "ES",
+    "city": "Seville",
+    "bu_rc_id": 3009,
+    "bu_rc_name": "SI_D_EV",
+    "bu_rc_group": "EV",
+    "active": true
+  },
+  {
+    "location_id": 65,
+    "location_name": "Synthetic Site 065",
+    "country": "CZ",
+    "city": "Brno",
+    "bu_rc_id": 3003,
+    "bu_rc_name": "SI_D_FS",
+    "bu_rc_group": "FS",
+    "active": true
+  },
+  {
+    "location_id": 66,
+    "location_name": "Synthetic Site 066",
+    "country": "GB",
+    "city": "Birmingham",
+    "bu_rc_id": 3013,
+    "bu_rc_name": "SI_D_RE",
+    "bu_rc_group": "RE",
+    "active": true
+  },
+  {
+    "location_id": 67,
+    "location_name": "Synthetic Site 067",
+    "country": "HU",
+    "city": "Budapest",
+    "bu_rc_id": 3012,
+    "bu_rc_name": "SI_D_PM",
+    "bu_rc_group": "PM",
+    "active": true
+  },
+  {
+    "location_id": 68,
+    "location_name": "Synthetic Site 068",
+    "country": "BE",
+    "city": "Antwerp",
+    "bu_rc_id": 3011,
+    "bu_rc_name": "SI_D_OP",
+    "bu_rc_group": "OP",
+    "active": true
+  },
+  {
+    "location_id": 69,
+    "location_name": "Synthetic Site 069",
+    "country": "DE",
+    "city": "Cologne",
+    "bu_rc_id": 3007,
+    "bu_rc_name": "SI_D_SW",
+    "bu_rc_group": "SW",
+    "active": true
+  },
+  {
+    "location_id": 70,
+    "location_name": "Synthetic Site 070",
+    "country": "DE",
+    "city": "Frankfurt",
+    "bu_rc_id": 3010,
+    "bu_rc_name": "SI_D_IN",
+    "bu_rc_group": "IN",
+    "active": true
+  },
+  {
+    "location_id": 71,
+    "location_name": "Synthetic Site 071",
+    "country": "SE",
+    "city": "Stockholm",
+    "bu_rc_id": 3009,
+    "bu_rc_name": "SI_D_EV",
+    "bu_rc_group": "EV",
+    "active": true
+  },
+  {
+    "location_id": 72,
+    "location_name": "Synthetic Site 072",
+    "country": "NL",
+    "city": "Amsterdam",
+    "bu_rc_id": 3010,
+    "bu_rc_name": "SI_D_IN",
+    "bu_rc_group": "IN",
+    "active": true
+  },
+  {
+    "location_id": 73,
+    "location_name": "Synthetic Site 073",
+    "country": "RO",
+    "city": "Cluj-Napoca",
+    "bu_rc_id": 3002,
+    "bu_rc_name": "SI_D_ED",
+    "bu_rc_group": "ED",
+    "active": true
+  },
+  {
+    "location_id": 74,
+    "location_name": "Synthetic Site 074",
+    "country": "CZ",
+    "city": "Ostrava",
+    "bu_rc_id": 3007,
+    "bu_rc_name": "SI_D_SW",
+    "bu_rc_group": "SW",
+    "active": true
+  },
+  {
+    "location_id": 75,
+    "location_name": "Synthetic Site 075",
+    "country": "PL",
+    "city": "Gdansk",
+    "bu_rc_id": 3001,
+    "bu_rc_name": "SI_D_DI",
+    "bu_rc_group": "DI",
+    "active": true
+  },
+  {
+    "location_id": 76,
+    "location_name": "Synthetic Site 076",
+    "country": "DE",
+    "city": "Munich",
+    "bu_rc_id": 3008,
+    "bu_rc_name": "SI_D_TI",
+    "bu_rc_group": "TI",
+    "active": true
+  },
+  {
+    "location_id": 77,
+    "location_name": "Synthetic Site 077",
+    "country": "AT",
+    "city": "Vienna",
+    "bu_rc_id": 3005,
+    "bu_rc_name": "SI_D_MO",
+    "bu_rc_group": "MO",
+    "active": true
+  },
+  {
+    "location_id": 78,
+    "location_name": "Synthetic Site 078",
+    "country": "DE",
+    "city": "Cologne",
+    "bu_rc_id": 3003,
+    "bu_rc_name": "SI_D_FS",
+    "bu_rc_group": "FS",
+    "active": true
+  },
+  {
+    "location_id": 79,
+    "location_name": "Synthetic Site 079",
+    "country": "PL",
+    "city": "Wroclaw",
+    "bu_rc_id": 3002,
+    "bu_rc_name": "SI_D_ED",
+    "bu_rc_group": "ED",
+    "active": true
+  },
+  {
+    "location_id": 80,
+    "location_name": "Synthetic Site 080",
+    "country": "FR",
+    "city": "Paris",
+    "bu_rc_id": 3009,
+    "bu_rc_name": "SI_D_EV",
+    "bu_rc_group": "EV",
+    "active": true
+  }
+]

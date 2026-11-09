@@ -1,0 +1,50 @@
+{
+  "_gold": {
+    "agent_id": "P3",
+    "agent_type": "llm",
+    "checkpoint": "P3",
+    "comparison_policy": "P3 is the second independent Debate reader, blind to P2's output until S1 reconciles.",
+    "human_gate": null,
+    "pipeline_order": 8,
+    "registry_id": "uc2_ets1_scope_memo",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-008",
+    "source_payload_sha256": "25f2e13581a4d2ed003d19e81dca05199f5f2fb633d9772725cc49baa2df59b1",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": true
+  },
+  "payload": {
+    "registry_id": "****",
+    "rows": [
+      {
+        "abs_delta": "****",
+        "address": "****",
+        "article_grounding": "****",
+        "carried_caveats": [
+          "****"
+        ],
+        "cdp_region": "****",
+        "city": "****",
+        "country": "****",
+        "country_code": "****",
+        "country_name": "****",
+        "defensibility": "****",
+        "discrepancy_flag": "****",
+        "interpretation": "****",
+        "latitude": "****",
+        "location_id": "****",
+        "location_name": "****",
+        "longitude": "****",
+        "method_a": "****",
+        "method_b": "****",
+        "method_column": "****",
+        "method_figure": "****",
+        "method_label": "****",
+        "pct_diff": "****",
+        "year": "****",
+        "zip_code": "****"
+      }
+    ]
+  }
+}

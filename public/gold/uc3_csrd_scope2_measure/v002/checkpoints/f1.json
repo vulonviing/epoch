@@ -1,0 +1,52 @@
+{
+  "_gold": {
+    "agent_id": "F1",
+    "agent_type": "llm",
+    "checkpoint": "F1",
+    "comparison_policy": "Deterministic totals and data-volume status are data-derived/exact; entry text, provenance notes, and readiness assessment are semantic.",
+    "human_gate": "G5",
+    "pipeline_order": 10,
+    "registry_id": "uc3_csrd_scope2_measure",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-008",
+    "source_payload_sha256": "a4417b5cc438cb6aa8844e5bfb2bf147b41c3f9fcae2b63599545c477c6c4b89",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": false
+  },
+  "payload": {
+    "citations": [
+      "****"
+    ],
+    "division_results": [
+      {
+        "citations": [
+          "****"
+        ],
+        "data_volume_status": "****",
+        "division": "****",
+        "entry_text": "****",
+        "n_rows": "****",
+        "provenance_note": "****",
+        "subtotal_t": "****",
+        "years": [
+          "****"
+        ]
+      }
+    ],
+    "headline": "****",
+    "limitations": [
+      "****"
+    ],
+    "output_form": "****",
+    "portfolio_summary": {
+      "division_count": "****",
+      "n_adequate": "****",
+      "n_thin": "****",
+      "narrative": "****",
+      "portfolio_total_t": "****"
+    },
+    "readiness_assessment": "****",
+    "registry_id": "****"
+  }
+}

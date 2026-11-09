@@ -1,0 +1,59 @@
+{
+  "checkpoints": {
+    "CP1": {
+      "decision": "pending",
+      "notes": "",
+      "source_available": false
+    },
+    "D2": {
+      "decision": "pending",
+      "notes": "",
+      "source_available": false
+    },
+    "DA1": {
+      "decision": "pending",
+      "notes": "",
+      "source_available": false
+    },
+    "EX1": {
+      "decision": "pending",
+      "notes": "",
+      "source_available": false
+    },
+    "EX2": {
+      "decision": "pending",
+      "notes": "",
+      "source_available": false
+    },
+    "F1": {
+      "decision": "pending",
+      "notes": "",
+      "source_available": false
+    },
+    "P1": {
+      "decision": "pending",
+      "notes": "",
+      "source_available": false
+    },
+    "R1": {
+      "decision": "pending",
+      "notes": "",
+      "source_available": false
+    },
+    "R2": {
+      "decision": "pending",
+      "notes": "",
+      "source_available": false
+    },
+    "TS1": {
+      "decision": "pending",
+      "notes": "",
+      "source_available": false
+    }
+  },
+  "lineage_reviewed": false,
+  "overall_decision": "pending",
+  "registry_drift_resolved": false,
+  "reviewer": "",
+  "schema_version": 1
+}

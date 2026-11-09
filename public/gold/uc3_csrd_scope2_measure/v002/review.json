@@ -1,0 +1,65 @@
+{
+  "checkpoints": {
+    "C1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "C2": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "CP1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "D2": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "DA1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "EX1": {
+      "decision": "approved",
+      "notes": "All 11 bullets web_verified against EFRAG/EUR-Lex/EC/ESMA; strongest finding challenges the gate for treating dual location+market-based Scope 2 as a target sub-requirement when ESRS E1 mandates both in the actual disclosure; also flags the Dec-2025 draft simplified ESRS and Omnibus timeline as moving the FY2027 readiness target.",
+      "source_available": true
+    },
+    "EX2": {
+      "decision": "approved",
+      "notes": "All 10 bullets web_verified against EFRAG/ESMA/EC; reinforces the location-based-only Scope 2 gap and notes the Nov-2025 draft ESRS 1 explicitly excludes E1-8 GHG metrics from the new partial-scope relief, sharpening rather than softening the deliverables thin-coverage flags.",
+      "source_available": true
+    },
+    "F1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "R1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "R2": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "TS1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    }
+  },
+  "frozen_at": "****",
+  "lineage_reviewed": true,
+  "overall_decision": "approved",
+  "registry_drift_resolved": true,
+  "reviewer": "****",
+  "schema_version": 1
+}

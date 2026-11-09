@@ -1,0 +1,60 @@
+{
+  "checkpoints": {
+    "CP1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "D2": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "DA1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "EX1": {
+      "decision": "approved",
+      "notes": "All 11 bullets web_verified against BAFA/UBA; correctly flags the company-vs-site subsidiary grain risk and the **** EnMS coverage rule the screen does not model. No fabricated sources.",
+      "source_available": true
+    },
+    "EX2": {
+      "decision": "approved",
+      "notes": "All 11 bullets web_verified against BAFA/DEHSt/UBA/EC/EUR-Lex; correctly flags the deliverable mislabeling the waste-heat duty as SS16 instead of SS17, and correctly challenges the unverifiable **** threshold claim rather than asserting it.",
+      "source_available": true
+    },
+    "F1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "P1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "R1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "R2": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    },
+    "TS1": {
+      "decision": "approved",
+      "notes": "",
+      "source_available": true
+    }
+  },
+  "frozen_at": "****",
+  "lineage_reviewed": true,
+  "overall_decision": "approved",
+  "registry_drift_resolved": true,
+  "reviewer": "****",
+  "schema_version": 1
+}

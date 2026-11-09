@@ -1,0 +1,50 @@
+{
+  "_gold": {
+    "agent_id": "P2",
+    "agent_type": "llm",
+    "checkpoint": "P2",
+    "comparison_policy": "P2 is **** of **** independent Debate readers; no reader sees the other before S1 reconciles. Carried-forward D3 fields are data-derived, interpretation and grounding are semantic.",
+    "human_gate": null,
+    "pipeline_order": 8,
+    "registry_id": "uc2_ets1_scope_memo",
+    "schema_version": 1,
+    "source_artifact_id": "artifact-007",
+    "source_payload_sha256": "25f2e13581a4d2ed003d19e81dca05199f5f2fb633d9772725cc49baa2df59b1",
+    "source_run_id": "run-01",
+    "status": "draft",
+    "topology_scoped": true
+  },
+  "payload": {
+    "registry_id": "****",
+    "rows": [
+      {
+        "abs_delta": "****",
+        "address": "****",
+        "article_grounding": "****",
+        "carried_caveats": [
+          "****"
+        ],
+        "cdp_region": "****",
+        "city": "****",
+        "country": "****",
+        "country_code": "****",
+        "country_name": "****",
+        "defensibility": "****",
+        "discrepancy_flag": "****",
+        "interpretation": "****",
+        "latitude": "****",
+        "location_id": "****",
+        "location_name": "****",
+        "longitude": "****",
+        "method_a": "****",
+        "method_b": "****",
+        "method_column": "****",
+        "method_figure": "****",
+        "method_label": "****",
+        "pct_diff": "****",
+        "year": "****",
+        "zip_code": "****"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+location_id,location_name,bu_rc_id,bu_rc_name,active,country,zip_code,city,address,latitude,longitude
+1,Synthetic Site 001,3001,SI_D_DI,True,DE,10184,Leipzig,Industriestraße 87,51.353698,12.371944
+2,Synthetic Site 002,3012,SI_D_PM,True,BE,01277,Ghent,171 Boulevard du Marché,51.063868,3.699709
+3,Synthetic Site 003,3010,SI_D_IN,True,FR,01302,Bordeaux,143 Rue Victor Hugo,44.864781,-0.566943
+4,Synthetic Site 004,3011,SI_D_OP,True,BR,10401,Curitiba,157 Enterprise Way,-25.447594,-49.273481
+5,Synthetic Site 005,3012,SI_D_PM,True,AU,10461,Melbourne,156 Industrial Road,-37.82046,144.984338
+6,Synthetic Site 006,3007,SI_D_SW,True,CN,10495,Shenzhen,129 Commerce Street,22.559138,114.055171
+7,Synthetic Site 007,3009,SI_D_EV,True,DE,10856,Stuttgart,Ringstraße 177,48.761362,9.184729
+8,Synthetic Site 008,3003,SI_D_FS,True,BR,10501,São Paulo,13 Business Park Drive,-23.532618,-46.626417
+9,Synthetic Site 009,3002,SI_D_ED,True,RO,33-231,Bucharest,Ulica Lipowa 14,44.438904,26.095726
+10,Synthetic Site 010,3011,SI_D_OP,True,AT,11164,Graz,Bahnhofstraße 194,47.089656,15.452919
+11,Synthetic Site 011,3008,SI_D_TI,True,DK,10771,Aarhus,100 Commerce Street,56.140732,10.208336
+12,Synthetic Site 012,3009,SI_D_EV,True,IT,10741,Bologna,9 Factory Avenue,44.476714,11.351152
+13,Synthetic Site 013,3012,SI_D_PM,True,IN,10875,Pune,82 Business Park Drive,18.533238,73.879375
+14,Synthetic Site 014,3010,SI_D_IN,False,CN,10919,Shenzhen,65 Enterprise Way,22.536523,114.056478
+15,Synthetic Site 015,3009,SI_D_EV,True,DK,11052,Aarhus,137 Industrial Road,56.140474,10.191496
+16,Synthetic Site 016,3009,SI_D_EV,True,AT,11647,Vienna,Werkstraße 95,48.194345,16.381491
+17,Synthetic Site 017,3005,SI_D_MO,True,TR,11163,Izmir,126 Factory Avenue,38.419858,27.159634
+18,Synthetic Site 018,3001,SI_D_DI,True,CA,11562,Montreal,140 Industrial Parkway,45.498618,-73.571387
+19,Synthetic Site 019,3007,SI_D_SW,True,FI,11338,Tampere,179 Enterprise Way,61.513238,23.755374
+20,Synthetic Site 020,3004,SI_D_HC,True,FR,02118,Strasbourg,58 Boulevard du Marché,48.583125,7.733988
+21,Synthetic Site 021,3007,SI_D_SW,True,AU,11440,Melbourne,159 Commerce Street,-37.829005,144.938368
+22,Synthetic Site 022,3013,SI_D_RE,True,FR,02323,Strasbourg,157 Allée des Roses,48.582243,7.762258
+23,Synthetic Site 023,3004,SI_D_HC,True,SE,11504,Stockholm,101 Business Park Drive,59.347036,18.062946
+24,Synthetic Site 024,3001,SI_D_DI,False,ES,11578,Seville,114 Enterprise Way,37.37099,-6.003273
+25,Synthetic Site 025,3005,SI_D_MO,True,US,12146,Boston,171 Commerce Drive,42.36842,-71.060445
+26,Synthetic Site 026,3005,SI_D_MO,True,AT,12635,Salzburg,Bahnhofstraße 113,47.81325,13.051736
+27,Synthetic Site 027,3010,SI_D_IN,True,AT,12778,Graz,Hauptstraße 159,47.072679,15.44196
+28,Synthetic Site 028,3009,SI_D_EV,True,DE,12777,Munich,Mühlenweg 61,48.113541,11.571836
+29,Synthetic Site 029,3012,SI_D_PM,True,IN,11967,Chennai,198 Enterprise Way,13.068729,80.265426
+30,Synthetic Site 030,3010,SI_D_IN,True,ES,12000,Seville,170 Industrial Road,37.375697,-6.006085
+31,Synthetic Site 031,3007,SI_D_SW,True,DE,13094,Nuremberg,Ringstraße 87,49.442069,11.06668
+32,Synthetic Site 032,3013,SI_D_RE,True,PL,44-648,Krakow,Ulica Fabryczna 132,50.064852,19.954195
+33,Synthetic Site 033,3003,SI_D_FS,True,ZA,12097,Johannesburg,84 Business Park Drive,-26.196784,28.045319
+34,Synthetic Site 034,3001,SI_D_DI,True,GB,A6 4CW,Manchester,162 Mill Lane,53.464349,-2.266864
+35,Synthetic Site 035,3002,SI_D_ED,True,PT,12274,Lisbon,139 Industrial Road,38.696502,-9.127882
+36,Synthetic Site 036,3011,SI_D_OP,True,DE,13584,Dresden,Mühlenweg 92,51.033064,13.737052
+37,Synthetic Site 037,3007,SI_D_SW,True,FR,03060,Bordeaux,99 Rue de l'Industrie,44.823616,-0.570184
+38,Synthetic Site 038,3003,SI_D_FS,True,DE,13775,Dresden,Goethestraße 89,51.044051,13.727076
+39,Synthetic Site 039,3008,SI_D_TI,True,FR,03258,Strasbourg,191 Rue Victor Hugo,48.580514,7.745091
+40,Synthetic Site 040,3003,SI_D_FS,True,US,13178,Boston,18 Oak Avenue,42.3409,-71.035905
+41,Synthetic Site 041,3011,SI_D_OP,True,NL,1789 EA,Rotterdam,Stationsplein 92,51.942429,4.488985
+42,Synthetic Site 042,3007,SI_D_SW,True,TR,12615,Ankara,53 Factory Avenue,39.943459,32.867938
+43,Synthetic Site 043,3006,SI_D_SI,True,SE,12770,Stockholm,147 Business Park Drive,59.343845,18.062468
+44,Synthetic Site 044,3005,SI_D_MO,True,GB,P9 7EW,Manchester,55 Victoria Avenue,53.46082,-2.22287
+45,Synthetic Site 045,3010,SI_D_IN,True,ZA,12889,Cape Town,144 Industrial Road,-33.926211,18.409118
+46,Synthetic Site 046,3006,SI_D_SI,True,PT,12867,Porto,61 Commerce Street,41.160961,-8.645161
+47,Synthetic Site 047,3002,SI_D_ED,True,NO,12966,Trondheim,99 Factory Avenue,63.448831,10.407926
+48,Synthetic Site 048,3002,SI_D_ED,True,NL,1960 JS,Rotterdam,Meerweg 144,51.918605,4.485365
+49,Synthetic Site 049,3015,SI_D_TR,True,NO,13115,Bergen,126 Enterprise Way,60.397205,5.331492
+50,Synthetic Site 050,3014,SI_D_SS,True,CZ,37-767,Brno,Ulica Przemysłowa 17,49.19079,16.585081
+51,Synthetic Site 051,3011,SI_D_OP,True,CA,14161,Montreal,132 Main Street,45.5077,-73.596507
+52,Synthetic Site 052,3007,SI_D_SW,True,SG,13201,Singapore,29 Factory Avenue,1.33217,103.824382
+53,Synthetic Site 053,3012,SI_D_PM,True,DE,15338,Hamburg,Schillerstraße 197,53.53453,10.014256
+54,Synthetic Site 054,3004,SI_D_HC,True,DE,15354,Erlangen,Goethestraße 116,49.590343,11.008546
+55,Synthetic Site 055,3012,SI_D_PM,True,SG,13439,Singapore,84 Industrial Road,1.32814,103.842928
+56,Synthetic Site 056,3011,SI_D_OP,True,IT,13512,Rome,96 Commerce Street,41.904137,12.471136
+57,Synthetic Site 057,3007,SI_D_SW,True,AT,15617,Salzburg,Industriestraße 88,47.799333,13.044535
+58,Synthetic Site 058,3005,SI_D_MO,True,IT,13725,Turin,187 Business Park Drive,45.073586,7.685674
+59,Synthetic Site 059,3002,SI_D_ED,True,HU,48-976,Budapest,Ulica Lipowa 109,47.486349,19.031578
+60,Synthetic Site 060,3014,SI_D_SS,True,FI,13764,Tampere,104 Industrial Road,61.494946,23.737081
+61,Synthetic Site 061,3007,SI_D_SW,True,CH,3366,Zurich,Schillerstraße 109,47.392315,8.560808
+62,Synthetic Site 062,3004,SI_D_HC,False,CH,3322,Bern,Goethestraße 28,46.950702,7.428429
+63,Synthetic Site 063,3005,SI_D_MO,True,CH,3380,Bern,Ringstraße 49,46.956612,7.437062
+64,Synthetic Site 064,3009,SI_D_EV,True,ES,14036,Seville,132 Enterprise Way,37.40035,-5.970568
+65,Synthetic Site 065,3003,SI_D_FS,True,CZ,20-240,Brno,Ulica Przemysłowa 195,49.175387,16.628801
+66,Synthetic Site 066,3013,SI_D_RE,True,GB,M2 4FW,Birmingham,46 Industrial Road,52.457871,-1.896257
+67,Synthetic Site 067,3012,SI_D_PM,True,HU,29-163,Budapest,Ulica Fabryczna 92,47.491546,19.056489
+68,Synthetic Site 068,3011,SI_D_OP,True,BE,04765,Antwerp,161 Boulevard du Marché,51.209857,4.424645
+69,Synthetic Site 069,3007,SI_D_SW,True,DE,16874,Cologne,Schillerstraße 181,50.927546,6.960753
+70,Synthetic Site 070,3010,SI_D_IN,True,DE,16841,Frankfurt,Goethestraße 51,50.131802,8.66523
+71,Synthetic Site 071,3009,SI_D_EV,True,SE,14524,Stockholm,193 Commerce Street,59.310246,18.061755
+72,Synthetic Site 072,3010,SI_D_IN,True,NL,2422 NP,Amsterdam,Hoofdstraat 198,52.389584,4.90743
+73,Synthetic Site 073,3002,SI_D_ED,True,RO,27-173,Cluj-Napoca,Ulica Dworcowa 24,46.78954,23.608672
+74,Synthetic Site 074,3007,SI_D_SW,True,CZ,28-266,Ostrava,Ulica Lipowa 104,49.823796,18.305601
+75,Synthetic Site 075,3001,SI_D_DI,True,PL,22-352,Gdansk,Ulica Przemysłowa 177,54.360083,18.640683
+76,Synthetic Site 076,3008,SI_D_TI,True,DE,17391,Munich,Mühlenweg 19,48.149339,11.563123
+77,Synthetic Site 077,3005,SI_D_MO,True,AT,17476,Vienna,Schillerstraße 7,48.229841,16.360049
+78,Synthetic Site 078,3003,SI_D_FS,True,DE,17591,Cologne,Goethestraße 25,50.954556,6.942664
+79,Synthetic Site 079,3002,SI_D_ED,True,PL,33-371,Wroclaw,Ulica Lipowa 144,51.090963,17.043969
+80,Synthetic Site 080,3009,SI_D_EV,True,FR,05415,Paris,175 Boulevard du Marché,48.841822,2.337516

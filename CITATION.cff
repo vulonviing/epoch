@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use EPOCH, please cite this software and the associated Master's thesis."
+title: "EPOCH: Audit-Aware Topology Selection for LLM Agents"
+type: software
+authors:
+  - family-names: "Ulu"
+    given-names: "Emrecan"
+version: 0.1.0
+date-released: 2026-09-17
+repository-code: "https://github.com/vulonviing/epoch"
+url: "https://emrecanulu.com/epoch/"
+license: Apache-2.0
+keywords:
+  - multi-agent systems
+  - regulatory compliance
+  - topology selection
+  - auditability

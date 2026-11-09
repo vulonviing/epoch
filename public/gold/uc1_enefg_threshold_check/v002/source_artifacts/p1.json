@@ -1,0 +1,56 @@
+{
+  "_source_path": "****",
+  "agent_id": "P1",
+  "approved_at": "****",
+  "artifact_id": "artifact-007",
+  "created_at": "****",
+  "input_refs": {
+    "d3": {
+      "artifact_id": "artifact-012",
+      "payload_sha256": "c67204dd28291a3e7faf4611a03d639d3cbdd15b4569a0134c244898de52fde2",
+      "run_id": "run-01"
+    },
+    "r2": {
+      "artifact_id": "artifact-009",
+      "payload_sha256": "ca567bf7f384ece4a72abd9db13f249479b18925edb0f2f2418e7ab361ee548c",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "carried_caveats": [
+      "****"
+    ],
+    "registry_id": "****",
+    "rows": [
+      {
+        "address": "****",
+        "carried_caveats": [
+          "****"
+        ],
+        "cdp_region": "****",
+        "city": "****",
+        "country": "****",
+        "country_code": "****",
+        "country_name": "****",
+        "gap": "****",
+        "interpretation": "****",
+        "latitude": "****",
+        "location_id": "****",
+        "location_name": "****",
+        "longitude": "****",
+        "near_breach": "****",
+        "rule_id": "****",
+        "rule_label": "****",
+        "status": "****",
+        "zip_code": "****"
+      }
+    ]
+  },
+  "payload_sha256": "a69caab73f7d89a4da57233a34b7448b9738703b7b355207390e986303d5ce66",
+  "reason": "P1 result interpretation accepted",
+  "registry_id": "uc1_enefg_threshold_check",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

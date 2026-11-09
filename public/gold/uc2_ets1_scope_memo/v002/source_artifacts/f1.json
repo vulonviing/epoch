@@ -1,0 +1,84 @@
+{
+  "_source_path": "****",
+  "agent_id": "F1",
+  "approved_at": "****",
+  "artifact_id": "artifact-006",
+  "created_at": "****",
+  "input_refs": {
+    "d3": {
+      "artifact_id": "artifact-014",
+      "payload_sha256": "d50b8d17964ec61f656fc17d3473d4cac0e40da5cfb2b335a68144e2e72c3184",
+      "run_id": "run-01"
+    },
+    "p2": {
+      "artifact_id": "artifact-007",
+      "payload_sha256": "25f2e13581a4d2ed003d19e81dca05199f5f2fb633d9772725cc49baa2df59b1",
+      "run_id": "run-01"
+    },
+    "p3": {
+      "artifact_id": "artifact-008",
+      "payload_sha256": "25f2e13581a4d2ed003d19e81dca05199f5f2fb633d9772725cc49baa2df59b1",
+      "run_id": "run-01"
+    },
+    "r2": {
+      "artifact_id": "artifact-010",
+      "payload_sha256": "ca567bf7f384ece4a72abd9db13f249479b18925edb0f2f2418e7ab361ee548c",
+      "run_id": "run-01"
+    },
+    "s1": {
+      "artifact_id": "artifact-011",
+      "payload_sha256": "7a76da8bbffc9dbe547d52b0df7586ed9e0dd12cc1b1d114726ab6a1a9b7d93e",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "citations": [
+      "****"
+    ],
+    "entries": [
+      {
+        "abs_delta": "****",
+        "citations": [
+          "****"
+        ],
+        "discrepancy_flag": "****",
+        "entry_text": "****",
+        "location_display": "****",
+        "location_id": "****",
+        "location_name": "****",
+        "material": "****",
+        "method_a": "****",
+        "method_b": "****",
+        "pct_diff": "****",
+        "scope_determination": "****",
+        "year": "****"
+      }
+    ],
+    "headline": "****",
+    "limitations": [
+      "****"
+    ],
+    "output_form": "****",
+    "portfolio_summary": {
+      "n_entries": "****",
+      "n_flagged": "****",
+      "n_material": "****",
+      "n_sites": "****",
+      "narrative": "****"
+    },
+    "registry_id": "****",
+    "sections": [
+      {
+        "body": "****",
+        "heading": "****"
+      }
+    ]
+  },
+  "payload_sha256": "25434ade9757f174e80d88e00d74c4d3c9e4621d1c4a90f0b990c9cd6ce4d7f1",
+  "reason": "F1 deliverable approved by human",
+  "registry_id": "uc2_ets1_scope_memo",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}

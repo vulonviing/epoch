@@ -1,0 +1,89 @@
+{
+  "_source_path": "****",
+  "agent_id": "CP1",
+  "approved_at": "****",
+  "artifact_id": "artifact-001",
+  "created_at": "****",
+  "input_refs": {
+    "d1": {
+      "artifact_id": "artifact-013",
+      "payload_sha256": "526c577d2822ebf2d4c9888f981f73cc5cb94fdaa12303a93f2465c9d54e1c32",
+      "run_id": "run-01"
+    },
+    "d2": {
+      "artifact_id": "artifact-002",
+      "payload_sha256": "6734c23b2d84b6a69b186c3ba67e0e38516aec68cde77343a2272c63983afe71",
+      "run_id": "run-01"
+    },
+    "da1": {
+      "artifact_id": "artifact-003",
+      "payload_sha256": "f755409b70577bb238c2e1d65ba4c64e34bf405f3df0ebbdedc079323c1717db",
+      "run_id": "run-01"
+    },
+    "r1": {
+      "artifact_id": "artifact-009",
+      "payload_sha256": "3e4499e184108cf1de2e5f62028d469a46c44236b55979ab797b56ce874ed1b9",
+      "run_id": "run-01"
+    },
+    "r2": {
+      "artifact_id": "artifact-010",
+      "payload_sha256": "ca567bf7f384ece4a72abd9db13f249479b18925edb0f2f2418e7ab361ee548c",
+      "run_id": "run-01"
+    }
+  },
+  "payload": {
+    "assurance_artifact": "****",
+    "assurance_level": "****",
+    "cluster_count": "****",
+    "cross_functional_need": "****",
+    "deadline_proximity_days": null,
+    "dual_method_required": "****",
+    "limitations": [
+      "****"
+    ],
+    "output_profile": {
+      "description": "****",
+      "form": "****",
+      "output_type": "****"
+    },
+    "risk_level": "****",
+    "signal_sources": {
+      "assurance_artifact": [
+        "****"
+      ],
+      "assurance_level": [
+        "****"
+      ],
+      "cluster_count": [
+        "****"
+      ],
+      "cross_functional_need": [
+        "****"
+      ],
+      "dual_method_required": [
+        "****"
+      ],
+      "output_profile": [
+        "****"
+      ],
+      "risk_level": [
+        "****"
+      ],
+      "task_type": [
+        "****"
+      ],
+      "uncertainty": [
+        "****"
+      ]
+    },
+    "task_type": "****",
+    "uncertainty": "****"
+  },
+  "payload_sha256": "12d5953c66aac3392887ea57320709e3d38fccaecf46d604f392d212e99153ce",
+  "reason": "CP1 profile accepted",
+  "registry_id": "uc2_1_ets1_scope_memo_annual",
+  "review_round": 1,
+  "run_id": "run-01",
+  "schema_version": "1",
+  "status": "active"
+}
