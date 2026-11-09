@@ -269,13 +269,55 @@ def verify_synthetic_checksums() -> int:
 
 
 def verify_single_root_history() -> None:
-    commits = subprocess.check_output(
+    roots = subprocess.check_output(
         ["git", "rev-list", "--max-parents=0", "--all"], cwd=REPO_ROOT, text=True
     ).splitlines()
-    if len(set(commits)) != 1:
+    if len(set(roots)) != 1:
         raise RuntimeError(
-            f"public history must contain one sanitized root commit; found {len(set(commits))}"
+            f"public history must contain one sanitized root commit; found {len(set(roots))}"
         )
+
+
+def verify_history_content() -> int:
+    """Apply the path and text rules to every file version in every commit."""
+    commits = subprocess.check_output(
+        ["git", "rev-list", "--all"], cwd=REPO_ROOT, text=True
+    ).split()
+    seen: set[tuple[str, str]] = set()
+    scanned = 0
+    for commit in commits:
+        listing = subprocess.check_output(
+            ["git", "ls-tree", "-r", "-z", commit], cwd=REPO_ROOT
+        )
+        for entry in listing.split(b"\0"):
+            if not entry:
+                continue
+            meta, raw_path = entry.split(b"\t", 1)
+            blob = meta.split()[2].decode()
+            name = raw_path.decode("utf-8")
+            if (blob, name) in seen:
+                continue
+            seen.add((blob, name))
+            path = Path(name)
+            parts = path.parts
+            for forbidden in FORBIDDEN_PATH_PARTS:
+                width = len(forbidden)
+                if any(parts[i : i + width] == forbidden for i in range(len(parts) - width + 1)):
+                    raise RuntimeError(f"forbidden path {name} in commit {commit[:7]}")
+            if parts[:2] in (("experiments", "synthetic"), ("experiments", "public")):
+                raise RuntimeError(f"generated run artifact {name} in commit {commit[:7]}")
+            if path in CONTENT_SCAN_EXEMPT:
+                continue
+            content = subprocess.check_output(["git", "cat-file", "blob", blob], cwd=REPO_ROOT)
+            try:
+                text = content.decode("utf-8")
+            except UnicodeDecodeError:
+                continue
+            scanned += 1
+            for label, pattern in FORBIDDEN_TEXT_PATTERNS.items():
+                if pattern.search(text):
+                    raise RuntimeError(f"{label} found in {name} in commit {commit[:7]}")
+    return scanned
 
 
 def verify_official_pdfs() -> None:
@@ -298,6 +340,7 @@ def main() -> int:
     synthetic_count = verify_synthetic_checksums()
     if history:
         verify_single_root_history()
+        verify_history_content()
     print(
         "Public release verification passed: "
         f"{len(files)} tracked files, {text_count} text files, "
